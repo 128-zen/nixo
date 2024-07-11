@@ -370,7 +370,7 @@ textarea {
   padding: 18px;
   height: 140px;
   border: 1px solid $border_color;
-  background-color: $background_tertiary_color;
+  background-color: $background_primary_color;
 }
 
 .container {
@@ -1145,7 +1145,7 @@ ul {
 .footer__top {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
   padding-top: 100px;
   padding-bottom: 60px;
   gap: 80px;
@@ -1176,7 +1176,7 @@ ul {
 }
 
 .footer__social a:hover path {
-  opacity: .6;
+  fill: $hover_link_color;
 }
 
 .footer__list {
@@ -1190,7 +1190,7 @@ ul {
 }
 
 .footer__list a:hover {
-  opacity: .6;
+  color: $hover_link_color;
 }
 
 .footer__bottom .container {
@@ -1316,7 +1316,7 @@ ul {
 .search input[type=search],
 .search .clear-button {
   border: 1px solid $border_color;
-  background-color: $background_tertiary_color;
+  background-color: $background_primary_color;
   border: none;
 }
 
@@ -1324,8 +1324,9 @@ ul {
   appearance: none;
   -webkit-appearance: none;
   box-sizing: border-box;
+  border-radius: 6px;
   border: 1px solid $border_color;
-  background-color: $background_tertiary_color;
+  background-color: $background_primary_color;
   color: $body_primary;
   flex: 1 1 auto;
   font-size: 16px;
@@ -1481,6 +1482,7 @@ ul {
   right: 0;
   padding: 8px 28px;
   top: 50%;
+  border-radius: 6px;
   transform: translate(-6px, -50%);
   font-size: 18px;
   font-weight: 400;
@@ -1489,13 +1491,14 @@ ul {
   cursor: pointer;
   transition: all .3s ease;
   border: none;
+  border: 1px solid $primary_button_color;
   background-color: $primary_button_color;
-  color: $light_text_color;
+  color: $headings_secondary;
 }
 .hero .search input[type=submit]:hover, .error-page .search input[type=submit]:hover {
   background-color: $secondary_button_color;
   color: $headings_primary;
-  box-shadow: 0px 4px 10px 0px $box_shadow_color1, 0px 10px 25px 0px $box_shadow_color2;
+  border: 1px solid $primary_button_color;
 }
 .hero .search-icon, .error-page .search-icon {
   left: 20px;
@@ -1518,7 +1521,7 @@ ul {
   font-weight: 400;
   line-height: 140%;
   padding: 4px 8px;
-  background-color: $background_tertiary_color;
+  background-color: $background_primary_color;
   color: $headings_primary;
 }
 
@@ -1626,7 +1629,7 @@ ul {
   padding: 30px;
   width: calc(33.3% - 20px);
   box-shadow: 0px 4px 10px 0px $box_shadow_color1, 0px 10px 25px 0px $box_shadow_color2;
-  background-color: $background_tertiary_color;
+  background-color: $background_primary_color;
 }
 .blocks-item {
   display: flex;
@@ -1772,7 +1775,7 @@ ul {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background-color: $background_tertiary_color;
+  background-color: $background_primary_color;
   box-shadow: 0px 4px 10px 0px $box_shadow_color1, 0px 10px 25px 0px $box_shadow_color2;
 }
 
@@ -1821,7 +1824,7 @@ ul {
   align-items: center;
   text-align: center;
   box-shadow: 0px 4px 10px 0px $box_shadow_color1, 0px 10px 25px 0px $box_shadow_color2;
-  background-color: $background_tertiary_color;
+  background-color: $background_primary_color;
 }
 
 .categories__item img {
@@ -1921,7 +1924,7 @@ ul {
 }
 
 .quick-links__item > svg path, .category-details__section > svg path, .promoted-articles__item > svg path, .article-votes > svg path, .nav__list > svg path, .nav__articles > svg path, .featured-posts-item > svg path {
-  fill: $background_tertiary_color;
+  fill: $background_primary_color;
 }
 
 .quick-links__item div svg path {
@@ -2103,7 +2106,7 @@ ul {
 }
 
 .promoted-articles__item > svg path {
-  fill: $background_tertiary_color;
+  fill: $background_primary_color;
 }
 
 @media (max-width: 1023px) {
@@ -2302,7 +2305,7 @@ ul {
   padding: 20px 30px;
   align-self: flex-start;
   box-shadow: 0px 4px 10px 0px $box_shadow_color1, 0px 10px 25px 0px $box_shadow_color2;
-  background-color: $background_tertiary_color;
+  background-color: $background_primary_color;
 }
 
 .faq__item h6 {
@@ -2506,7 +2509,7 @@ ul {
   padding: 30px;
   width: calc(33.3% - 20px);
   box-shadow: 0px 4px 10px 0px $box_shadow_color1, 0px 10px 25px 0px $box_shadow_color2;
-  background-color: $background_tertiary_color;
+  background-color: $background_primary_color;
   color: $headings_primary;
 }
 
@@ -2711,7 +2714,7 @@ ul {
   padding: 30px;
   width: calc(33.3% - 20px);
   box-shadow: 0px 4px 10px 0px $box_shadow_color1, 0px 10px 25px 0px $box_shadow_color2;
-  background-color: $background_tertiary_color;
+  background-color: $background_primary_color;
 }
 
 .category-page__article:nth-child(n+7) {
@@ -2969,7 +2972,7 @@ ul {
   height: 100%;
   padding: 30px;
   box-shadow: 0px 4px 10px 0px $box_shadow_color1, 0px 10px 25px 0px $box_shadow_color2;
-  background-color: $background_tertiary_color;
+  background-color: $background_primary_color;
 }
 
 @media (max-width: 1279px) {
@@ -3477,7 +3480,7 @@ ul {
 
 .sidenav-title {
   padding: 8px 10px;
-  background-color: $background_tertiary_color;
+  background-color: $background_primary_color;
   border-radius: 8px;
   color: $headings_primary;
 }
@@ -3635,7 +3638,7 @@ ul {
   padding: 20px;
   margin-bottom: 30px;
   box-shadow: 0px 4px 10px 0px $box_shadow_color1, 0px 10px 25px 0px $box_shadow_color2;
-  background-color: $background_tertiary_color;
+  background-color: $background_primary_color;
 }
 .comment:last-of-type {
   margin-bottom: 0;
@@ -4205,7 +4208,7 @@ ul {
   padding: 14px 20px;
   transition: all .3s ease;
   box-shadow: 0px 4px 10px 0px $box_shadow_color1, 0px 10px 25px 0px $box_shadow_color2;
-  background-color: $background_tertiary_color;
+  background-color: $background_primary_color;
 }
 
 .topic-header .dropdown-toggle:hover, .topic-header .dropdown-toggle[aria-expanded='true'], .my-activities-following-header .dropdown-toggle:hover, .my-activities-following-header .dropdown-toggle[aria-expanded='true'], .profile-section-sorter .dropdown-toggle:hover, .profile-section-sorter .dropdown-toggle[aria-expanded='true'] {
@@ -4275,7 +4278,7 @@ ul {
   padding: 30px;
   width: calc(33.3% - 20px);
   box-shadow: 0px 4px 10px 0px $box_shadow_color1, 0px 10px 25px 0px $box_shadow_color2;
-  background-color: $background_tertiary_color;
+  background-color: $background_primary_color;
 } 
 
 .striped-list-title {
@@ -5351,7 +5354,7 @@ ul {
   border-radius: 2px;
   border: 1px solid #ddd;
   color: $headings_primary;
-  background-color: $background_tertiary_color;
+  background-color: $background_primary_color;
   text-align: inherit;
   padding: 8px 25px;
   width: 100%;

@@ -6858,6 +6858,7 @@ html[dir=rtl] .notification-left-aligned {
   display: inline-block;
   padding: 14px 34px;
   font-weight: 500;
+  border-radius: 6px;
 }
 
 .button-primary {

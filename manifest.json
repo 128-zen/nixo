@@ -1,7 +1,7 @@
 {
   "name": "Nixo 128",
   "author": "128zen",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -90,7 +90,7 @@
           "type": "color",
           "description": "Choose the primary color for the hover state of the links",
           "label": "Hover Link Primary Color",
-          "value": "#FB9CED"
+          "value": "#F88"
         },
         {
           "identifier": "border_color",
@@ -478,12 +478,6 @@
           "value": true
         },
         {
-          "identifier": "introduction_item1_img",
-          "type": "file",
-          "description": "Insert image",
-          "label": "Item 1 Image"
-        },
-        {
           "identifier": "introduction_item1_heading",
           "type": "text",
           "description": "Enter section heading",
@@ -503,12 +497,6 @@
           "description": "Enter section subtitle",
           "label": "Item 1 Subtitle",
           "value": "Discover everything you need to know to start your journey with our service"
-        },
-        {
-          "identifier": "introduction_item2_img",
-          "type": "file",
-          "description": "Insert image",
-          "label": "Item 2 Image"
         },
         {
           "identifier": "introduction_item2_heading",
@@ -532,12 +520,6 @@
           "value": "Discover everything you need to know to start your journey with our service"
         },
         {
-          "identifier": "introduction_item3_img",
-          "type": "file",
-          "description": "Insert image",
-          "label": "Item 3 Image"
-        },
-        {
           "identifier": "introduction_item3_heading",
           "type": "text",
           "description": "Enter section heading",
@@ -559,12 +541,6 @@
           "value": "Discover everything you need to know to start your journey with our service"
         },
         {
-          "identifier": "introduction_item4_img",
-          "type": "file",
-          "description": "Insert image",
-          "label": "Item 4 Image"
-        },
-        {
           "identifier": "introduction_item4_heading",
           "type": "text",
           "description": "Enter section heading",
@@ -583,6 +559,90 @@
           "type": "text",
           "description": "Enter section subtitle",
           "label": "Item 4 Subtitle",
+          "value": "Discover everything you need to know to start your journey with our service"
+        },
+        {
+          "identifier": "introduction_item5_heading",
+          "type": "text",
+          "description": "Enter section heading",
+          "label": "Item 5 Heading",
+          "value": "Features"
+        },
+        {
+          "identifier": "introduction_item5_link",
+          "type": "text",
+          "description": "Insert link",
+          "label": "Item 5 Link",
+          "value": "#"
+        },
+        {
+          "identifier": "introduction_item5_subtitle",
+          "type": "text",
+          "description": "Enter section subtitle",
+          "label": "Item 5 Subtitle",
+          "value": "Discover everything you need to know to start your journey with our service"
+        },
+        {
+          "identifier": "introduction_item6_heading",
+          "type": "text",
+          "description": "Enter section heading",
+          "label": "Item 6 Heading",
+          "value": "Features"
+        },
+        {
+          "identifier": "introduction_item6_link",
+          "type": "text",
+          "description": "Insert link",
+          "label": "Item 6 Link",
+          "value": "#"
+        },
+        {
+          "identifier": "introduction_item6_subtitle",
+          "type": "text",
+          "description": "Enter section subtitle",
+          "label": "Item 6 Subtitle",
+          "value": "Discover everything you need to know to start your journey with our service"
+        },
+        {
+          "identifier": "introduction_item7_heading",
+          "type": "text",
+          "description": "Enter section heading",
+          "label": "Item 7 Heading",
+          "value": "Features"
+        },
+        {
+          "identifier": "introduction_item7_link",
+          "type": "text",
+          "description": "Insert link",
+          "label": "Item 7 Link",
+          "value": "#"
+        },
+        {
+          "identifier": "introduction_item7_subtitle",
+          "type": "text",
+          "description": "Enter section subtitle",
+          "label": "Item 7 Subtitle",
+          "value": "Discover everything you need to know to start your journey with our service"
+        },
+        {
+          "identifier": "introduction_item8_heading",
+          "type": "text",
+          "description": "Enter section heading",
+          "label": "Item 8 Heading",
+          "value": "Features"
+        },
+        {
+          "identifier": "introduction_item8_link",
+          "type": "text",
+          "description": "Insert link",
+          "label": "Item 8 Link",
+          "value": "#"
+        },
+        {
+          "identifier": "introduction_item8_subtitle",
+          "type": "text",
+          "description": "Enter section subtitle",
+          "label": "Item 8 Subtitle",
           "value": "Discover everything you need to know to start your journey with our service"
         }
       ]

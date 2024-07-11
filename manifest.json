@@ -1,7 +1,7 @@
 {
   "name": "Nixo 128",
   "author": "128zen",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -62,13 +62,6 @@
           "type": "color",
           "description": "Choose heading secondary color",
           "label": "Heading Secondary Color",
-          "value": "#fff"
-        },
-        {
-          "identifier": "light_text_color",
-          "type": "color",
-          "description": "Choose light text color",
-          "label": "Light Text Color",
           "value": "#fff"
         },
         {

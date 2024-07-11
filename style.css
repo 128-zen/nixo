@@ -1764,15 +1764,23 @@ ul {
 
 .introduction__items {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 30px;
+  flex-direction: column;
+}
+
+.introduction__items > div {
+  display: flex;
+  gap: 0 30px;
+  padding: 40px;
+}
+
+.introduction__items > div:first-of-type {
+  border-bottom: 1px dashed $border_color;
 }
 
 .introduction__item {
-  width: calc(25% - 22.5px);
+  position: relative;
+  width: 25%;
   display: flex;
-  padding: 40px 37px;
   flex-direction: column;
   align-items: center;
   text-align: center;
@@ -1781,12 +1789,15 @@ ul {
 }
 
 .introduction__item img {
-  width: 30px;
-  height: 30px;
+  position: absolute;
+  left: 12px;
+  top: -10px;
+  width: 20px;
+  height: 20px;
 }
 
 .introduction__item h6 {
-  margin: 20px 0 14px;
+  margin-bottom: 14px;
 }
 
 @media (max-width: 1023px) {

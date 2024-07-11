@@ -34,7 +34,7 @@
           "type": "color",
           "description": "Choose primary background color",
           "label": "Background Primary Color",
-          "value": "#8D9AA6"
+          "value": "#FAFAFA"
         },
         {
           "identifier": "background_secondary_color",

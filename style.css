@@ -1521,13 +1521,14 @@ ul {
   font-weight: 400;
   line-height: 140%;
   padding: 4px 8px;
+  border-radius: 6px;
   background-color: $background_primary_color;
   color: $headings_primary;
 }
 
 .popular-keywords a:hover {
+  background-color: $hover_link_color;
   color: $headings_primary;
-  box-shadow: 0px 4px 10px 0px $box_shadow_color1, 0px 10px 25px 0px $box_shadow_color2;
 }
 
 .page-header {

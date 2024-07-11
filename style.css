@@ -1437,66 +1437,12 @@ ul {
   max-width: 645px;
 }
 
-main > svg {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  top: -88px;
-  width: 100%;
-  height: auto;
-}
-
-main > svg:first-of-type > path {
-  fill: $background_elements_color1;
-}
-
-main > svg:first-of-type > path:last-of-type {
-  fill: $background_elements_color2;
-}
-
-main > svg:first-of-type > g g path {
-  fill: $background_elements_color1;
-}
-
-main > svg:first-of-type > g g path:nth-of-type(5), main > svg:first-of-type > g g path:nth-of-type(6) {
-  fill: $background_elements_color2;
-}
-
-main > svg:first-of-type > g g path:last-of-type, main > svg:last-of-type > g g path:last-of-type {
-  stroke: $border_color;
-  fill: none;
-}
-
-main > svg:first-of-type > defs linearGradient stop {
-  stop-color: $background_elements_color1;
-}
-
-main > svg:first-of-type > defs linearGradient stop:last-of-type {
-  stop-color: $background_elements_color2;
-}
-
-main > svg:last-of-type {
-  top: auto;
-  bottom: 0;
-}
-
-main > svg:last-of-type > g g rect {
-  fill: $background_primary_color;
-}
-
-main > svg:last-of-type > g > path {
-  fill: $body_background_color;
-}
-
 @media (max-width: 1279px) {
   .hero-text {
     font-size: 50px;
   }
 }
 @media (max-width: 1023px) {
-  main > svg {
-    width: auto;
-  }
   .hero .container {
     padding-top: 168px;
   }

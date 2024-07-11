@@ -1,7 +1,7 @@
 {
   "name": "Nixo 128",
   "author": "128zen",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -1157,20 +1157,6 @@
           "description": "Insert link",
           "label": "Footer Link",
           "value": "#"
-        },
-        {
-          "identifier": "footer_background_color",
-          "type": "color",
-          "description": "Choose the color for footer background",
-          "label": "Footer Background Color",
-          "value": "#16182D"
-        },
-        {
-          "identifier": "footer_paragraph_color",
-          "type": "color",
-          "description": "Choose the color for footer paragraph",
-          "label": "Footer Paragraph Color",
-          "value": "#C7CAD0"
         },
         {
           "identifier": "footer_description",

@@ -1139,7 +1139,7 @@ ul {
 }
 
 .footer {
-  background-color: $footer_background_color;
+  background-color: $background_secondary_color;
 }
 
 .footer__top {
@@ -1153,7 +1153,7 @@ ul {
 
 .footer__top p {
   max-width: 440px;
-  color: $footer_paragraph_color;
+  color: $body_secondary;
 }
 
 
@@ -1172,7 +1172,7 @@ ul {
   height: auto;
 }
 .footer__social path {
-  fill: $light_text_color;
+  fill: $headings_secondary;
 }
 
 .footer__social a:hover path {
@@ -1186,7 +1186,7 @@ ul {
 
 .footer__list a {
   font-weight: 700;
-  color: $light_text_color;
+  color: $headings_secondary;
 }
 
 .footer__list a:hover {
@@ -1211,7 +1211,7 @@ ul {
 }
 
 .footer__right {
-  color: $footer_paragraph_color;
+  color: $body_secondary;
 }
 
 @media (max-width: 1199px) {

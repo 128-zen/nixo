@@ -370,7 +370,7 @@ textarea {
   padding: 18px;
   height: 140px;
   border: 1px solid $border_color;
-  background-color: $background_primary_color;
+  background-color: $body_background_color;
 }
 
 .container {
@@ -445,14 +445,13 @@ ul {
 .comment-form-controls input[type=submit] {
   background-color: $primary_button_color;
   border: 1px solid $primary_button_color;
-  color: $light_text_color;
+  color: $headings_secondary;
 }
 
 .comment-form-controls input[type=submit]:hover {
   background-color: $secondary_button_color;
-  border: 1px solid $secondary_button_color;
+  border: 1px solid $primary_button_color;
   color: $headings_primary;
-  box-shadow: 0px 4px 10px 0px $box_shadow_color1, 0px 10px 25px 0px $box_shadow_color2;
 }
 
 .button-large[disabled], input[type=submit][disabled] {
@@ -2861,7 +2860,7 @@ ul {
   color: $headings_secondary;
 }
 
-.nav__articles h6 a:hover {
+.nav__articles h6 a:hover, .nav__articles li a:hover {
   color: $hover_link_color;
 }
 
@@ -3017,7 +3016,6 @@ ul {
 /***** Article page *****/
 .article-page {
   padding-top: 80px;
-  padding-bottom: 360px;
 }
 
 .article-page>.container {
@@ -3030,7 +3028,7 @@ ul {
   margin-top: 20px;
   flex-direction: column;
   align-items: start;
-  border-left: 1px solid $primary_button_color;
+  border-left: 1px solid $hover_link_color;
 }
 
 .nav__articles li {
@@ -3283,7 +3281,7 @@ ul {
 }
 .article-body blockquote, .post-body blockquote {
   padding: 0 20px;
-  border-left: 1px solid $primary_button_color;
+  border-left: 1px solid $hover_link_color;
   margin: 0;
   color: $body_primary;
 }
@@ -3358,7 +3356,7 @@ ul {
 }
 
 .article-relatives svg path {
-  fill: $primary_button_color;
+  fill: $hover_link_color;
 }
 .article-votes-controls {
   display: flex;
@@ -3371,13 +3369,7 @@ ul {
   padding: 40px;
   text-align: center;
   margin-top: 40px;
-  background: $background_secondary_color;
-}
-
-.article-votes > svg {
-  position: absolute;
-  right: 0;
-  bottom: 0;
+  background: $background_primary_color;
 }
 
 .article-votes a {
@@ -3495,16 +3487,8 @@ ul {
   color: $hover_link_color;
 }
 
-@media (max-width: 1279px) {
-  .article-page {
-    padding-bottom: 340px;
-  }
-}
 
 @media (max-width: 1023px) {
-  .article-page {
-    padding-bottom: 320px;
-  }
   .article-container {
     width: 60%;
     padding-left: 30px;
@@ -3513,7 +3497,6 @@ ul {
 
 @media (max-width: 767px) {
   .article-page {
-    padding-bottom: 300px;
     padding-top: 60px;
   }
   .article-page>.container {

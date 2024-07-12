@@ -2235,12 +2235,14 @@ ul {
   margin-bottom: 0;
 }
 
-.faq__item.open div {
+.faq__item.open > div {
   margin-bottom: 20px;
 }
 
 .faq__item div div {
   position: relative;
+  width: 28px;
+  height: 28px;
 }
 
 .faq__item div div svg {
@@ -2251,7 +2253,7 @@ ul {
 }
 
 .faq__item.open svg {
-  transform: rotate(90deg);
+  transform: translate(-50%, -50%) rotate(90deg);
 }
 
 .faq__item svg path {

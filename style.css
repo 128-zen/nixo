@@ -1062,10 +1062,13 @@ ul {
 /***** Footer *****/
 
 .submit-request {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   position: relative;
   z-index: 3;
   overflow: hidden;
-  padding: 80px;
+  padding: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1078,42 +1081,39 @@ ul {
   z-index: 4;
 }
 
-.submit-request svg {
+.submit-request img {
   position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 100%;
-  width: 100%;
+  left: -42px;
+  top: 46px;
 }
 
-.submit-request svg > g g path {
-  fill: $background_elements_color1;
+.submit-request img:nth-of-type(2) {
+  top: -32px;
+  right: 36px;
+  left: auto;
 }
 
-.submit-request svg > g g path:nth-of-type(4), .submit-request svg > g g path:nth-of-type(5) {
-  fill: $background_elements_color2;
+.submit-request img:nth-of-type(3) {
+  left: 26px;
+  bottom: -18px;
 }
 
-.submit-request svg > g g path:last-of-type {
-  stroke: $border_color;
-  fill: none;
+.submit-request img:nth-of-type(4) {
+  top: auto;
+  bottom: 98px;
+  right: 60px;
 }
 
-.submit-request svg > defs linearGradient stop {
-  stop-color: $background_elements_color1;
-}
-
-.submit-request svg > defs linearGradient stop:last-of-type {
-  stop-color: $background_elements_color2;
-}
 
 .submit-request h2 {
   margin-bottom: 20px;
+  color: $headings_secondary;
 }
 
 .submit-request p {
   font-size: 18px;
   margin-bottom: 40px;
+  color: $body_secondary;
 }
 
 @media (max-width: 1279px) {

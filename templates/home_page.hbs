@@ -95,46 +95,6 @@
 </section>
 {{/if}}
 
-{{#if settings.show_quick_links_section}}
-{{!-- Quick Links Section --}}
-<section class="quick-links section">
-  <div class="container">
-    <h2>{{settings.quick_links_heading}}</h2>
-    <p>{{settings.quick_links_subtitle}}</p>
-    <div class="quick-links__items">
-      <div class="quick-links__item fade-in-up">
-        <h4><a href="{{settings.quick_links_item1_link}}">{{settings.quick_links_item1_heading}}</a></h4>
-        <p>{{settings.quick_links_item1_text}}</p>
-        <div>
-          <a href="{{settings.quick_links_item1_link}}"></a>
-          {{settings.quick_links_item1_link_text}}
-          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10" viewBox="0 0 12 10" fill="none">
-            <path d="M1.5 5H10.5M10.5 5L6.5625 1M10.5 5L6.5625 9" stroke="#222B27" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-        </div>
-        <svg xmlns="http://www.w3.org/2000/svg" width="69" height="65" viewBox="0 0 69 65" fill="none">
-          <path d="M68.7947 0.76355L33.1138 34.2266L0.198364 65H68.7947V0.76355Z" fill="white"/>
-        </svg>
-      </div>
-      <div class="quick-links__item fade-in-up">
-        <h4><a href="{{settings.quick_links_item2_link}}">{{settings.quick_links_item2_heading}}</a></h4>
-        <p class="p-small">{{settings.quick_links_item2_text}}</p>
-        <div>
-          <a href="{{settings.quick_links_item2_link}}"></a>
-          {{settings.quick_links_item2_link_text}}
-          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10" viewBox="0 0 12 10" fill="none">
-            <path d="M1.5 5H10.5M10.5 5L6.5625 1M10.5 5L6.5625 9" stroke="#222B27" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-        </div>
-        <svg xmlns="http://www.w3.org/2000/svg" width="69" height="65" viewBox="0 0 69 65" fill="none">
-          <path d="M68.7947 0.76355L33.1138 34.2266L0.198364 65H68.7947V0.76355Z" fill="white"/>
-        </svg>
-      </div>
-    </div>
-  </div>
-</section>
-{{/if}}
-
 {{#if settings.show_category_details_section}}
 {{!-- Categories Section --}}
 <section class="category-details section">
@@ -177,37 +137,6 @@
 </section>
 {{/if}}
 
-{{#if settings.show_promoted_articles_section}}
-  {{!-- Promoted Articles --}}
-  {{#if promoted_articles}}
-    <section class="promoted-articles section">
-      <div class="container">
-        <h2 class="fade-in-up">{{settings.promoted_articles_heading}}</h2>
-        <div class="promoted-articles__items">
-          {{#each promoted_articles}}
-            <div class="promoted-articles__item fade-in-up">
-              <div>
-                <img src="{{author.avatar_url}}">
-                <div class="meta-group">
-                  {{#is created_at edited_at}}
-                    <p class="meta-data">{{date created_at timeago=true}}</p>
-                  {{else}}
-                    <p class="meta-data">{{date edited_at timeago=true}}</p>
-                  {{/is}}
-                </div>
-              </div>
-              <h6><a href="{{url}}">{{title}}</a></h6>
-              <div>{{body}}</div>
-              <svg xmlns="http://www.w3.org/2000/svg" width="70" height="65" viewBox="0 0 70 65" fill="none">
-                <path d="M69.2946 0.76355L33.6137 34.2266L0.698242 65H69.2946V0.76355Z" fill="white"/>
-              </svg>
-            </div>
-          {{/each}}
-        </div>
-      </div>
-    </section>
-  {{/if}}
-{{/if}}
 
 {{!-- Popular Videos Section --}}
 {{#if settings.show_videos}}
@@ -215,15 +144,15 @@
   <div class="container">
     <div class="videos__head">
       <h2 class="fade-in-up">{{settings.videos_heading}}</h2>
-      <a class="button button-tertiary" href="{{settings.videos_button_link}}" target="_blank">{{settings.videos_button}}</a>
+      <a class="button button-secondary" href="{{settings.videos_button_link}}" target="_blank">{{settings.videos_button}}</a>
     </div>
     <div class="videos__list">
       <div class="videos__item fade-in-up">
         <div class="videos__img">
           <img src="{{settings.videos_img1}}" alt="Video Thumbnail" data-video-src="{{settings.videos_link1}}">
-          <svg xmlns="http://www.w3.org/2000/svg" width="61" height="61" viewBox="0 0 61 61" fill="none">
-            <rect x="-0.000488281" y="0.204956" width="60.59" height="60.59" fill="#EDF9FC"/>
-            <path d="M39.9022 29.2774C40.8433 29.8207 40.8433 31.1792 39.9022 31.7226L24.5501 40.5861C23.6089 41.1295 22.4325 40.4502 22.4325 39.3635L22.4325 21.6364C22.4325 20.5497 23.6089 19.8705 24.5501 20.4138L39.9022 29.2774Z" fill="#16182D"/>
+          <svg width="62" height="61" viewBox="0 0 62 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0.538086" y="0.204956" width="60.59" height="60.59" rx="30.295" fill="#FB9CED"/>
+            <path d="M41.7736 29.2774C42.7148 29.8207 42.7148 31.1792 41.7736 31.7226L26.4216 40.5861C25.4804 41.1295 24.304 40.4502 24.304 39.3635L24.304 21.6364C24.304 20.5497 25.4804 19.8705 26.4216 20.4138L41.7736 29.2774Z" fill="#1E1E1E"/>
           </svg>
         </div>
         <h4>{{settings.videos_heading1}}</h4>
@@ -232,9 +161,9 @@
       <div class="videos__item fade-in-up">
         <div class="videos__img">
           <img src="{{settings.videos_img2}}" alt="Video Thumbnail" data-video-src="{{settings.videos_link2}}">
-          <svg xmlns="http://www.w3.org/2000/svg" width="61" height="61" viewBox="0 0 61 61" fill="none">
-            <rect x="-0.000488281" y="0.204956" width="60.59" height="60.59" fill="#EDF9FC"/>
-            <path d="M39.9022 29.2774C40.8433 29.8207 40.8433 31.1792 39.9022 31.7226L24.5501 40.5861C23.6089 41.1295 22.4325 40.4502 22.4325 39.3635L22.4325 21.6364C22.4325 20.5497 23.6089 19.8705 24.5501 20.4138L39.9022 29.2774Z" fill="#16182D"/>
+          <svg width="62" height="61" viewBox="0 0 62 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0.538086" y="0.204956" width="60.59" height="60.59" rx="30.295" fill="#FB9CED"/>
+            <path d="M41.7736 29.2774C42.7148 29.8207 42.7148 31.1792 41.7736 31.7226L26.4216 40.5861C25.4804 41.1295 24.304 40.4502 24.304 39.3635L24.304 21.6364C24.304 20.5497 25.4804 19.8705 26.4216 20.4138L41.7736 29.2774Z" fill="#1E1E1E"/>
           </svg>
         </div>
         <h4>{{settings.videos_heading2}}</h4>
@@ -243,9 +172,9 @@
       <div class="videos__item fade-in-up">
         <div class="videos__img">
           <img src="{{settings.videos_img3}}" alt="Video Thumbnail" data-video-src="{{settings.videos_link3}}">
-          <svg xmlns="http://www.w3.org/2000/svg" width="61" height="61" viewBox="0 0 61 61" fill="none">
-            <rect x="-0.000488281" y="0.204956" width="60.59" height="60.59" fill="#EDF9FC"/>
-            <path d="M39.9022 29.2774C40.8433 29.8207 40.8433 31.1792 39.9022 31.7226L24.5501 40.5861C23.6089 41.1295 22.4325 40.4502 22.4325 39.3635L22.4325 21.6364C22.4325 20.5497 23.6089 19.8705 24.5501 20.4138L39.9022 29.2774Z" fill="#16182D"/>
+          <svg width="62" height="61" viewBox="0 0 62 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0.538086" y="0.204956" width="60.59" height="60.59" rx="30.295" fill="#FB9CED"/>
+            <path d="M41.7736 29.2774C42.7148 29.8207 42.7148 31.1792 41.7736 31.7226L26.4216 40.5861C25.4804 41.1295 24.304 40.4502 24.304 39.3635L24.304 21.6364C24.304 20.5497 25.4804 19.8705 26.4216 20.4138L41.7736 29.2774Z" fill="#1E1E1E"/>
           </svg>
         </div>
         <h4>{{settings.videos_heading3}}</h4>

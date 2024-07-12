@@ -1353,7 +1353,6 @@ ul {
   box-shadow: 0 0 0 3px $brand_color;
 }
 .search input[type=search]::placeholder, .nav input[type=search]::placeholder {
-  background-color: $body_background_color;
   color: $body_primary;
 }
 
@@ -2806,6 +2805,7 @@ ul {
 
 .nav input[type=search]{
   padding: 14px 20px 14px 50px;
+  background-color: $body_background_color;
 }
 
 .nav input[type=search]::placeholder {
@@ -2857,13 +2857,17 @@ ul {
   cursor: pointer;
 }
 
+.nav__heading h6 {
+  color: $headings_secondary;
+}
+
 .nav__heading svg {
   flex: none;
 }
 
 .nav__heading path {
-  fill: $headings_primary;
-  stroke: $headings_primary;
+  fill: $headings_secondary;
+  stroke: $headings_secondary;
 }
 
 .nav__sections {
@@ -2890,7 +2894,7 @@ ul {
 .nav__sections a {
   display: inline;
   margin-bottom: 15px;
-  color: $body_primary;
+  color: $body_secondary;
 }
 
 .nav__sections a:hover {

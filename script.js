@@ -263,13 +263,6 @@
   window.addEventListener('scroll', animateElements);
 
 
-  if (document.querySelector('.hero')) {
-    const sections = document.querySelectorAll('section');
-    if (sections.length > 0) {
-        sections[sections.length - 1].classList.add('last-section');
-    }
-  }
-
   //DEFAULT THEME CODE
 
   // Key map

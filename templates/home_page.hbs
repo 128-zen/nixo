@@ -181,13 +181,7 @@
         <p>{{settings.videos_description3}}</p>
       </div>
     </div>
-    <svg xmlns="http://www.w3.org/2000/svg" width="205" height="192" viewBox="0 0 205 192" fill="none">
-      <path d="M0.349609 0L106.54 99.5897L204.5 191.175H0.349609V0Z" fill="#D5ECF8"/>
-    </svg>
   </div>
-  <svg xmlns="http://www.w3.org/2000/svg" width="115" height="61" viewBox="0 0 115 61" fill="none">
-    <path fill-rule="evenodd" clip-rule="evenodd" d="M30.4865 29.337L0.791501 61L57.7946 61L57.7946 0.127998L30.4865 29.337ZM114.798 61L57.7946 61L57.7946 0.127993L85.1028 29.337L114.798 61Z" fill="#D5ECF8"/>
-  </svg>
 
   {{!-- Modal window --}}
   <div class="video-modal">
@@ -197,13 +191,15 @@
 </section>
 {{/if}}
 
-{{#if settings.show_faq_section}}
-{{!-- FAQ Section --}}
-<section class="faq section">
+
+<section class="section last-section">
   <div class="container">
-    <h2 class="fade-in-up">{{settings.faq_heading}}</h2>
-    <p class="fade-in-up">{{settings.faq_subtitle}}</p>
-    <div class="faq__items">
+    {{#if settings.show_faq_section}}
+    {{!-- FAQ Section --}}
+    <div class="faq">
+      <h2 class="fade-in-up">{{settings.faq_heading}}</h2>
+      <p class="fade-in-up">{{settings.faq_subtitle}}</p>
+      <div class="faq__items">
         <div class="faq__item fade-in-up">
           <div>
             <h6>{{settings.faq_item1_heading}}</h6>
@@ -237,108 +233,20 @@
           </div>
           <p>{{settings.faq_item3_text}}</p>
         </div>
-        <div class="faq__item fade-in-up">
-          <div>
-            <h6>{{settings.faq_item4_heading}}</h6>
-            <span>
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                <path d="M4.67117 15.1234L14.9179 4.87665M14.9179 4.87665L5.88085 4.80549M14.9179 4.87665L14.9891 13.9137" stroke="#16182D" stroke-width="1.61012" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-            </span>
-          </div>
-          <p>{{settings.faq_item4_text}}</p>
-        </div>
-        {{#if settings.show_faq_item5}}
-          <div class="faq__item fade-in-up">
-            <div>
-              <h6>{{settings.faq_item5_heading}}</h6>
-              <span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                  <path d="M4.67117 15.1234L14.9179 4.87665M14.9179 4.87665L5.88085 4.80549M14.9179 4.87665L14.9891 13.9137" stroke="#16182D" stroke-width="1.61012" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-              </span>
-            </div>
-            <p>{{settings.faq_item5_text}}</p>
-          </div>
-        {{/if}}
-        {{#if settings.show_faq_item6}}
-          <div class="faq__item fade-in-up">
-            <div>
-              <h6>{{settings.faq_item6_heading}}</h6>
-              <span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                  <path d="M4.67117 15.1234L14.9179 4.87665M14.9179 4.87665L5.88085 4.80549M14.9179 4.87665L14.9891 13.9137" stroke="#16182D" stroke-width="1.61012" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-              </span>
-            </div>
-            <p>{{settings.faq_item6_text}}</p>
-          </div>
-        {{/if}}
-        {{#if settings.show_faq_item7}}
-          <div class="faq__item fade-in-up">
-            <div>
-              <h6>{{settings.faq_item7_heading}}</h6>
-              <span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                  <path d="M4.67117 15.1234L14.9179 4.87665M14.9179 4.87665L5.88085 4.80549M14.9179 4.87665L14.9891 13.9137" stroke="#16182D" stroke-width="1.61012" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-              </span>
-            </div>
-            <p>{{settings.faq_item7_text}}</p>
-          </div>
-        {{/if}}
-        {{#if settings.show_faq_item8}}
-          <div class="faq__item fade-in-up">
-            <div>
-              <h6>{{settings.faq_item8_heading}}</h6>
-              <span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                  <path d="M4.67117 15.1234L14.9179 4.87665M14.9179 4.87665L5.88085 4.80549M14.9179 4.87665L14.9891 13.9137" stroke="#16182D" stroke-width="1.61012" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-              </span>
-            </div>
-            <p>{{settings.faq_item8_text}}</p>
-          </div>
-        {{/if}}
+      </div>
     </div>
-  </div>
-</section>
-{{/if}}
+    {{/if}}
 
-  <div class="submit-request">
-    <div class="container">
+    <div class="submit-request">
       <h2 class="fade-in-up">{{settings.footer_heading}}</h2>
       <p class="fade-in-up">{{settings.footer_text}}</p>
       <div class="fade-in-up">
         <a class="button button-secondary" href="{{settings.footer_link}}">{{settings.footer_link_text}}</a>
       </div>
-      <svg width="1169" height="336" viewBox="0 0 1169 336" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <g clip-path="url(#clip0_19309_886)">
-          <path d="M1278.29 1151.3V-159.084H-116.365V1151.3H1278.29Z" fill="url(#paint0_linear_19309_886)"/>
-          <mask id="mask0_19309_886" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="-639" y="-160" width="2477" height="1312">
-            <path d="M1837.7 -159.084H-638.821V1151.3H1837.7V-159.084Z" fill="white"/>
-          </mask>
-          <g mask="url(#mask0_19309_886)">
-            <path opacity="0.6" d="M167.932 -1.59326L254.759 79.8367L334.856 154.722H167.932V-1.59326Z" fill="#EAF3DF"/>
-            <path opacity="0.6" d="M167.714 311.317L80.8871 229.887L0.789673 155.002H167.714V311.317Z" fill="#EAF3DF"/>
-            <path opacity="0.6" d="M500.881 311.847L414.054 230.417L333.957 155.532H500.881V311.847Z" fill="#EAF3DF"/>
-            <path opacity="0.6" d="M1170.48 154.722L1083.66 73.2917L1003.56 -1.59312H1170.48V154.722Z" fill="#D5ECF8"/>
-            <path opacity="0.6" d="M1004.07 156.13L1090.9 237.56L1171 312.445H1004.07V156.13Z" fill="#D5ECF8"/>
-            <path d="M1169.69 1151.19V-158.976L1837.59 469.905H-636.089M1002.72 1151.19V-158.976L1837.59 627.126H-636.089M835.744 -158.976V1151.19M668.774 1151.19V-158.976L1837.59 941.566H-636.089M501.799 -158.976V1151.19M334.826 -158.976V1151.19M167.847 -158.976V1151.19M0.876819 1151.19V-158.976L1392.32 1151.19M-636.089 -1.75508H1837.59M-636.089 155.465H1837.59M-636.089 312.685H1837.59M-636.089 784.344H1837.59L835.746 -158.976M-636.089 1098.79H1837.59M1726.27 1151.19L334.66 -158.817M1058.54 1151.19L-333.064 -158.817M-638.705 24.5814L557.457 1151.18M56.5392 1151.19L-636.089 499.02" stroke="#8D9AA6" stroke-width="0.218398" stroke-miterlimit="10"/>
-          </g>
-        </g>
-        <defs>
-          <linearGradient id="paint0_linear_19309_886" x1="1278.29" y1="496.109" x2="-116.365" y2="496.109" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#EAF3DF"/>
-            <stop offset="1" stop-color="#D5ECF8"/>
-          </linearGradient>
-          <clipPath id="clip0_19309_886">
-            <rect width="1170" height="625.569" fill="white" transform="matrix(-1 0 0 1 1170.79 -159.084)"/>
-          </clipPath>
-        </defs>
-      </svg>
     </div>
   </div>
+</section>
+
 
 
 

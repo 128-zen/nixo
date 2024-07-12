@@ -3369,6 +3369,7 @@ ul {
   padding: 40px;
   text-align: center;
   margin-top: 40px;
+  border-radius: 6px;
   background: $background_primary_color;
 }
 
@@ -3380,7 +3381,7 @@ ul {
   padding: 8px 20px;
   line-height: 1;
   cursor: pointer;
-  border: none;
+  border-radius: 6px;
   background-color: $primary_button_color;
   border: 1px solid $primary_button_color;
 }

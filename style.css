@@ -2666,6 +2666,12 @@ ul {
   height: 100%;
 }
 
+.category-page__article > div > img {
+  width: 22px;
+  height: 22px;
+  border-radius: 50px;
+}
+
 .category-page__article > div:first-of-type {
   display: flex;
   justify-content: space-between;
@@ -2673,7 +2679,7 @@ ul {
   margin-bottom: 40px;
 }
 
-.category-page__article > div:last-of-type {
+.category-page__article > div:nth-of-type(2) {
   max-height: 68px;
   overflow: hidden;
   margin-top: 15px;

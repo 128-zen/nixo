@@ -42,13 +42,16 @@
           {{#each articles}}
             <div class="category-page__article">
               <div>
-                <img src="{{author.avatar_url}}">
                 <div class="meta-group">
                   {{#is created_at edited_at}}
                     <p class="meta-data">{{date created_at timeago=true}}</p>
                   {{else}}
                     <p class="meta-data">{{date edited_at timeago=true}}</p>
                   {{/is}}
+                </div>
+                <div>
+                  <h6>{{author.name}}</h6>
+                  <img src="{{author.avatar_url}}">
                 </div>
               </div>
               <h6><a href="{{url}}">{{title}}</a></h6>

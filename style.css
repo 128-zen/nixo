@@ -2638,7 +2638,7 @@ ul {
   display: none;
 }
 
-.category-page__article > div:first-of-type, .section-page__article > div:first-of-type, .striped-list-item-body {
+.section-page__article > div:first-of-type, .striped-list-item-body {
   max-height: 67px;
   overflow: hidden;
   margin: 20px 0 30px;
@@ -2668,6 +2668,9 @@ ul {
 
 .category-page__article > div:last-of-type div {
   position: relative;
+}
+
+.category-page__article > div:last-of-type div, .category-page__article > div:last-of-type div img {
   height: 24px;
   width: 24px;
 }
@@ -2703,7 +2706,7 @@ ul {
 }
 
 .category-page__article > div:last-of-type:hover svg, .section-page__article > div:last-of-type:hover svg, .featured-posts-btn:hover svg {
-  transform: rotate(45deg);
+  transform: translate(-50%, -50%) rotate(45deg);
 }
 
 @media(min-width: 1440px) {

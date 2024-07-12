@@ -1407,14 +1407,13 @@ ul {
 
 /***** Hero component *****/
 .hero {
-  margin-top: -88px;
   overflow: hidden;
   position: relative;
 }
 .hero .container {
   display: flex;
   justify-content: center;
-  padding-top: 188px;
+  padding-top: 100px;
 }
 
 .hero__content {
@@ -1439,12 +1438,12 @@ ul {
 }
 @media (max-width: 1023px) {
   .hero .container {
-    padding-top: 168px;
+    padding-top: 80px;
   }
 }
 @media (max-width: 767px) {
   .hero .container {
-    padding-top: 148px;
+    padding-top: 60px;
   }
   .hero__content {
     max-width: 595px;

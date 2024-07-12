@@ -3382,13 +3382,14 @@ ul {
   cursor: pointer;
   border: none;
   background-color: $primary_button_color;
+  border: 1px solid $primary_button_color;
 }
 .article-vote path {
   fill: $light_text_color;
 }
 .article-vote:hover {
+  border: 1px solid $primary_button_color;
   background-color: $secondary_button_color;
-  box-shadow: 0px 4px 10px 0px $box_shadow_color1, 0px 10px 25px 0px $box_shadow_color2;
 }
 .article-vote:hover path {
   fill: $headings_primary;

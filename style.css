@@ -2666,6 +2666,19 @@ ul {
   height: 100%;
 }
 
+.category-page__article > div:last-of-type div {
+  position: relative;
+  height: 24px;
+  width: 24px;
+}
+
+.category-page__article > div:last-of-type div svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .category-page__article > div > img {
   width: 22px;
   height: 22px;

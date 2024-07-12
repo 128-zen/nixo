@@ -2687,6 +2687,11 @@ ul {
   gap: 10px;
 }
 
+.category-page__article .short-name {
+  font-size: 18px;
+  font-weight: 700;
+}
+
 .category-page__article .author-img {
   width: 22px;
   height: 22px;

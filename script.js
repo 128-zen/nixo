@@ -262,6 +262,17 @@
   document.addEventListener('DOMContentLoaded', animateElements);
   window.addEventListener('scroll', animateElements);
 
+  const nameElements = document.querySelector('.short-name');
+  nameElements.forEach(nameElement => {
+    const fullName = nameElement.textContent.trim();
+    const [firstName, lastName] = fullName.split(' ');
+
+    if (lastName) {
+      const shortName = `${firstName} ${lastName.charAt(0)}.`;
+      nameElement.textContent = shortName;
+    }
+  });
+  
 
   //DEFAULT THEME CODE
 

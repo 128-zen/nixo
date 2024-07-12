@@ -2640,7 +2640,7 @@ ul {
   display: none;
 }
 
-.section-page__article > div:first-of-type, .striped-list-item-body {
+.striped-list-item-body {
   max-height: 67px;
   overflow: hidden;
   margin: 20px 0 30px;
@@ -2824,10 +2824,18 @@ ul {
   background-color: $background_primary_color;
 }
 
-.nav__list > svg, .nav__articles > svg {
+.nav__list > img, .nav__articles > img {
   position: absolute;
-  right: 0;
-  bottom: 0;
+  left: -48px;
+  top: -18px;
+}
+
+.nav__list > img:last-of-type, .nav__articles > img:last-of-type {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: -16px;
+  bottom: -32px;
 }
 
 .nav__category {

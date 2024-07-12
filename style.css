@@ -803,6 +803,10 @@ ul {
   padding: 10px 25px;
 }
 
+.user-nav-list > li .submit-a-request {
+  background-color: transparent;
+}
+
 .user-nav-list > li svg {
   cursor: pointer;
 }
@@ -1407,13 +1411,14 @@ ul {
 
 /***** Hero component *****/
 .hero {
+  margin-top: -88px;
   overflow: hidden;
   position: relative;
 }
 .hero .container {
   display: flex;
   justify-content: center;
-  padding-top: 100px;
+  padding-top: 188px;
 }
 
 .hero__content {
@@ -1438,12 +1443,12 @@ ul {
 }
 @media (max-width: 1023px) {
   .hero .container {
-    padding-top: 80px;
+    padding-top: 168px;
   }
 }
 @media (max-width: 767px) {
   .hero .container {
-    padding-top: 60px;
+    padding-top: 148px;
   }
   .hero__content {
     max-width: 595px;
@@ -2663,47 +2668,47 @@ ul {
   height: 100%;
 }
 
-.category-page__article > div:last-of-type div {
+.category-page__article > div:last-of-type div, .section-page__article > div:last-of-type div {
   position: relative;
 }
 
-.category-page__article > div:last-of-type div, .category-page__article > div:last-of-type div img {
+.category-page__article > div:last-of-type div, .category-page__article > div:last-of-type div img, .section-page__article > div:last-of-type div, .section-page__article > div:last-of-type div img {
   height: 24px;
   width: 24px;
 }
 
-.category-page__article > div:last-of-type div svg {
+.category-page__article > div:last-of-type div svg, .section-page__article > div:last-of-type div svg {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.category-page__article > div:first-of-type > div:last-of-type {
+.category-page__article > div:first-of-type > div:last-of-type, .section-page__article > div:first-of-type > div:last-of-type {
   display: flex;
   gap: 10px;
 }
 
-.category-page__article .short-name {
+.category-page__article .short-name, .section-page__article .short-name {
   font-size: 18px;
   font-weight: 700;
   color: $headings_primary;
 }
 
-.category-page__article .author-img {
+.category-page__article .author-img, .section-page__article .author-img {
   width: 22px;
   height: 22px;
   border-radius: 50px;
 }
 
-.category-page__article > div:first-of-type {
+.category-page__article > div:first-of-type, .section-page__article > div:first-of-type {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 40px;
 }
 
-.category-page__article > div:nth-of-type(2) {
+.category-page__article > div:nth-of-type(2), .section-page__article > div:nth-of-type(2) {
   max-height: 68px;
   overflow: hidden;
   margin-top: 15px;

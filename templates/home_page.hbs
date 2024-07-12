@@ -197,39 +197,44 @@
     {{#if settings.show_faq_section}}
     {{!-- FAQ Section --}}
     <div class="faq">
-      <h2 class="fade-in-up">{{settings.faq_heading}}</h2>
-      <p class="fade-in-up">{{settings.faq_subtitle}}</p>
+      <div class="faq__head">
+        <h2 class="fade-in-up">{{settings.faq_heading}}</h2>
+        <p class="fade-in-up">{{settings.faq_subtitle}}</p>
+      </div>
       <div class="faq__items">
         <div class="faq__item fade-in-up">
           <div>
             <h6>{{settings.faq_item1_heading}}</h6>
-            <span>
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                <path d="M4.67117 15.1234L14.9179 4.87665M14.9179 4.87665L5.88085 4.80549M14.9179 4.87665L14.9891 13.9137" stroke="#16182D" stroke-width="1.61012" stroke-linecap="round" stroke-linejoin="round"/>
+            <div>
+              <img src="{{asset 'ball.png'}}" alt="icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10" fill="none">
+                <path d="M1 5H10M10 5L6.0625 1M10 5L6.0625 9" stroke="#1E1E1E" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
-            </span>
+            </div>
           </div>
           <p>{{settings.faq_item1_text}}</p>
         </div>
         <div class="faq__item fade-in-up">
           <div>
             <h6>{{settings.faq_item2_heading}}</h6>
-            <span>
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                <path d="M4.67117 15.1234L14.9179 4.87665M14.9179 4.87665L5.88085 4.80549M14.9179 4.87665L14.9891 13.9137" stroke="#16182D" stroke-width="1.61012" stroke-linecap="round" stroke-linejoin="round"/>
+            <div>
+              <img src="{{asset 'ball.png'}}" alt="icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10" fill="none">
+                <path d="M1 5H10M10 5L6.0625 1M10 5L6.0625 9" stroke="#1E1E1E" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
-            </span>
+            </div>
           </div>
           <p>{{settings.faq_item2_text}}</p>
         </div>
         <div class="faq__item fade-in-up">
           <div>
             <h6>{{settings.faq_item3_heading}}</h6>
-            <span>
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                <path d="M4.67117 15.1234L14.9179 4.87665M14.9179 4.87665L5.88085 4.80549M14.9179 4.87665L14.9891 13.9137" stroke="#16182D" stroke-width="1.61012" stroke-linecap="round" stroke-linejoin="round"/>
+            <div>
+              <img src="{{asset 'ball.png'}}" alt="icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10" fill="none">
+                <path d="M1 5H10M10 5L6.0625 1M10 5L6.0625 9" stroke="#1E1E1E" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
-            </span>
+            </div>
           </div>
           <p>{{settings.faq_item3_text}}</p>
         </div>

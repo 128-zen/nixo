@@ -2183,17 +2183,19 @@ ul {
 }
 
 .faq {
-  padding: 40px;
   background-color: $background_primary_color;
 }
 
+.faq__head {
+  padding: 40px;
+  text-align: left;
+}
+
 .faq h2 {
-  text-align: center;
   margin-bottom: 20px;
 }
 
 .faq > p {
-  text-align: center;
   margin-bottom: 60px;
 }
 
@@ -2210,7 +2212,7 @@ ul {
   width: 100%;
   min-height: 90px;
   cursor: pointer;
-  padding: 20px 0;
+  padding: 20px 30px;
   align-self: flex-start;
 }
 
@@ -2222,7 +2224,7 @@ ul {
   color: $hover_link_color;
 }
 
-.faq__item div {
+.faq__item > div {
   display: flex;
   gap: 20px;
   align-items: center;
@@ -2237,18 +2239,19 @@ ul {
   margin-bottom: 20px;
 }
 
-.faq__item span {
-  font-size: 0;
-  padding: 10px 9px;
-  background-color: $background_primary_color;
+.faq__item div div {
+  position: relative;
 }
 
-.faq__item.open span {
-  background-color: $background_secondary_color;
+.faq__item div div svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .faq__item.open svg {
-  transform: rotate(135deg);
+  transform: rotate(90deg);
 }
 
 .faq__item svg path {

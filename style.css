@@ -2857,8 +2857,12 @@ ul {
   cursor: pointer;
 }
 
-.nav__heading h6, .nav__articles h6 {
+.nav__heading h6, .nav__articles h6 a {
   color: $headings_secondary;
+}
+
+.nav__articles h6 a:hover {
+  color: $hover_link_color;
 }
 
 .nav__articles li a {

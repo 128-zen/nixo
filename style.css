@@ -2682,7 +2682,12 @@ ul {
   transform: translate(-50%, -50%);
 }
 
-.category-page__article > div > img {
+.category-page__article > div:first-of-type > div:last-of-type {
+  display: flex;
+  gap: 10px;
+}
+
+.category-page__article .author-img {
   width: 22px;
   height: 22px;
   border-radius: 50px;

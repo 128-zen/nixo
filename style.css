@@ -1577,7 +1577,7 @@ ul {
   gap: 15px;
 }
 
-.page-header .dropdown-toggle > div {
+.page-header .dropdown-toggle > div, .featured-posts-btn > div {
   position: relative;
 }
 

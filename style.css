@@ -4148,7 +4148,6 @@ ul {
 /* Community topic page */
 .topic-page {
   padding-top: 80px;
-  padding-bottom: 360px;
 }
 .topic-header {
   font-size: 13px;
@@ -4300,18 +4299,12 @@ ul {
   .post-list-page .posts {
     padding-top: 100px;
   }
-  .topic-page {
-    padding-bottom: 340px;
-  }
 }
 
 @media (max-width: 1023px) {
-  .topic-page {
-    padding-bottom: 320px;
-  }
   .post-list-page .community-featured-posts, .community-page .community-featured-posts {
   padding-top: 80px;
-}
+  }
   .post-list-page .posts {
     padding-top: 80px;
   }
@@ -4325,7 +4318,6 @@ ul {
   }
   .topic-page {
     padding-top: 60px;
-    padding-bottom: 300px;
   }
   .post-list-page .posts {
     padding-top: 60px;

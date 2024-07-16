@@ -5050,7 +5050,7 @@ ul {
   width: 100%;
 }
 .requests {
-  margin-bottom: 360px;
+  margin-bottom: 120px;
 }
 .requests-table-toolbar {
   display: flex;
@@ -5063,17 +5063,17 @@ ul {
 }
 @media (max-width: 1279px) {
   .requests {
-    margin-bottom: 340px;
+    margin-bottom: 100px;
   }
 }
 @media (max-width: 1023px) {
   .requests {
-    margin-bottom: 320px;
+    margin-bottom: 80px;
   }
 }
 @media (max-width: 767px) {
   .requests {
-    margin-bottom: 300px;
+    margin-bottom: 60px;
   }
 }
 @media (min-width: 768px) {

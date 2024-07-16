@@ -1,7 +1,7 @@
 {
   "name": "Nixo 128",
   "author": "128zen",
-  "version": "1.0.32",
+  "version": "1.0.33",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -39,16 +39,16 @@
         {
           "identifier": "background_secondary_color",
           "type": "color",
-          "description": "Choose background color for header, footer and section",
+          "description": "Choose secondary background color",
           "label": "Background Secondary Color",
           "value": "#1E1E1E"
         },
         {
           "identifier": "background_tertiary_color",
           "type": "color",
-          "description": "Choose background color for containers",
+          "description": "Choose tertiary background color",
           "label": "Background Tertiary Color",
-          "value": "#fff"
+          "value": "#F2F2F2"
         },
         {
           "identifier": "headings_primary",

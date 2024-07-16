@@ -4028,12 +4028,6 @@ ul {
   width: calc(33.3% - 20px);
 }
 
-.featured-posts-item > svg {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-}
-
 .featured-posts-item a {
   display: block;
   width: fit-content;
@@ -4170,14 +4164,12 @@ ul {
 .topic-header .dropdown-toggle, .my-activities-following-header .dropdown-toggle, .profile-section-sorter .dropdown-toggle {
   padding: 14px 20px;
   transition: all .3s ease;
-  box-shadow: 0px 4px 10px 0px $box_shadow_color1, 0px 10px 25px 0px $box_shadow_color2;
-  background-color: $background_primary_color;
+  background-color: $body_background_color;
 }
 
 .topic-header .dropdown-toggle:hover, .topic-header .dropdown-toggle[aria-expanded='true'], .my-activities-following-header .dropdown-toggle:hover, .my-activities-following-header .dropdown-toggle[aria-expanded='true'], .profile-section-sorter .dropdown-toggle:hover, .profile-section-sorter .dropdown-toggle[aria-expanded='true'] {
-  box-shadow: none;
   background-color: $primary_button_color;
-  color: $light_text_color;
+  color: $headings_secondary;
 }
 
 .topic-header .dropdown-toggle:hover svg, .topic-header .dropdown-toggle[aria-expanded='true'] svg, .my-activities-following-header .dropdown-toggle:hover svg, .my-activities-following-header .dropdown-toggle[aria-expanded='true'] svg, .profile-section-sorter .dropdown-toggle:hover svg, .profile-section-sorter .dropdown-toggle[aria-expanded='true'] svg {
@@ -4185,7 +4177,7 @@ ul {
 }
 
 .topic-header .dropdown-toggle:hover svg path, .topic-header .dropdown-toggle[aria-expanded='true'] svg path, .my-activities-following-header .dropdown-toggle:hover svg path, .my-activities-following-header .dropdown-toggle[aria-expanded='true'] svg path, .profile-section-sorter .dropdown-toggle:hover svg path, .profile-section-sorter .dropdown-toggle[aria-expanded='true'] svg path {
-  fill: $light_text_color;
+  fill: $headings_secondary;
 }
 
 
@@ -4240,8 +4232,7 @@ ul {
   text-align: left;
   padding: 30px;
   width: calc(33.3% - 20px);
-  box-shadow: 0px 4px 10px 0px $box_shadow_color1, 0px 10px 25px 0px $box_shadow_color2;
-  background-color: $background_primary_color;
+  background-color: $body_background_color;
 } 
 
 .striped-list-title {
@@ -4294,7 +4285,7 @@ ul {
   left: 35px;
 }
 .post-list-page .posts {
-  background-color: $background_primary_color;
+  background-color: $background_tertiary_color;
   padding-top: 120px;
 }
 

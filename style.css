@@ -1519,7 +1519,7 @@ ul {
   line-height: 140%;
   padding: 4px 8px;
   border-radius: 6px;
-  background-color: $background_primary_color;
+  background-color: $background_tertiary_color;
   color: $headings_primary;
 }
 
@@ -1581,12 +1581,12 @@ ul {
   position: relative;
 }
 
-.page-header .dropdown-toggle > div, .page-header .dropdown-toggle > div img {
+.page-header .dropdown-toggle > div, .page-header .dropdown-toggle > div img, .featured-posts-btn > div, .featured-posts-btn > div img {
   height: 24px;
   width: 24px;
 }
 
-.page-header .dropdown-toggle > div svg {
+.page-header .dropdown-toggle > div svg, .featured-posts-btn > div svg {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1597,7 +1597,7 @@ ul {
   stroke: $headings_primary;
 }
 
-.page-header .dropdown-toggle:hover svg, .page-header .dropdown-toggle[aria-expanded='true'] svg {
+.page-header .dropdown-toggle:hover svg, .page-header .dropdown-toggle[aria-expanded='true'] svg .featured-posts-btn:hover > div svg {
   transform: translate(-50%, -50%) rotate(90deg);
 }
 
@@ -4354,7 +4354,7 @@ ul {
 /***** Status labels *****/
 /* Styles labels used in posts, articles and requests */
 .status-label {
-  background-color: $background_primary_color;
+  background-color: $hover_link_color;
   border-radius: 8px;
   color: $headings_primary;
   font-size: 14px;

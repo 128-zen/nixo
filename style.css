@@ -4645,6 +4645,7 @@ ul {
 }
 .post-sidebar input[type=search]{
   padding: 12px 10px 12px 50px;
+  background-color: $body_background_color;
   border: 1px solid $border_color;
 }
 

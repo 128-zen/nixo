@@ -806,6 +806,10 @@ ul {
   background-color: transparent;
 }
 
+.user-nav-list > li .submit-a-request:hover {
+  background-color: $primary_button_color;
+}
+
 .user-nav-list > li svg {
   cursor: pointer;
 }
@@ -5772,7 +5776,7 @@ ul {
 
 .profile-section {
   width: 100%;
-  margin-bottom: 360px;
+  margin-bottom: 120px;
 }
 @media (min-width: 1024px) {
   .profile-section {
@@ -6145,13 +6149,13 @@ ul {
 
 @media (max-width: 1279px) {
   .profile-section {
-    margin-bottom: 340px;
+    margin-bottom: 100px;
   }
 }
 
 @media (max-width: 1023px) {
   .profile-section {
-    margin-bottom: 320px;
+    margin-bottom: 80px;
   }
   .profile-lists {
     flex-wrap: wrap;
@@ -6163,7 +6167,7 @@ ul {
 }
 @media (max-width: 767px) {
   .profile-section {
-    margin-bottom: 300px;
+    margin-bottom: 60px;
   }
   .profile-info {
     flex-direction: column;

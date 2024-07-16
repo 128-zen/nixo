@@ -645,7 +645,6 @@ ul {
   background-color: $secondary_button_color;
   border: 1px solid $secondary_button_color;
   color: $headings_primary;
-  box-shadow: 0px 4px 10px 0px $box_shadow_color1, 0px 10px 25px 0px $box_shadow_color2;
 }
 
 .form footer a {
@@ -1642,8 +1641,7 @@ ul {
 .topics-item {
   padding: 30px;
   width: calc(33.3% - 20px);
-  box-shadow: 0px 4px 10px 0px $box_shadow_color1, 0px 10px 25px 0px $box_shadow_color2;
-  background-color: $background_primary_color;
+  background-color: $body_background_color;
 }
 .blocks-item {
   display: flex;
@@ -1847,7 +1845,6 @@ ul {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  box-shadow: 0px 4px 10px 0px $box_shadow_color1, 0px 10px 25px 0px $box_shadow_color2;
   background-color: $background_primary_color;
 }
 
@@ -2445,7 +2442,6 @@ ul {
   text-align: left;
   padding: 30px;
   width: calc(33.3% - 20px);
-  box-shadow: 0px 4px 10px 0px $box_shadow_color1, 0px 10px 25px 0px $box_shadow_color2;
   background-color: $background_primary_color;
   color: $headings_primary;
 }
@@ -2468,7 +2464,6 @@ ul {
 }
 
 .recent-activity-item-parent:hover {
-  box-shadow: 0px 4px 10px 0px $box_shadow_color1, 0px 10px 25px 0px $box_shadow_color2;
   background-color: $secondary_button_color;
   color: $headings_primary;
 }
@@ -2973,7 +2968,6 @@ ul {
   width: 100%;
   height: 100%;
   padding: 30px;
-  box-shadow: 0px 4px 10px 0px $box_shadow_color1, 0px 10px 25px 0px $box_shadow_color2;
   background-color: $background_primary_color;
 }
 
@@ -3616,7 +3610,6 @@ ul {
 .comment {
   padding: 20px;
   margin-bottom: 30px;
-  box-shadow: 0px 4px 10px 0px $box_shadow_color1, 0px 10px 25px 0px $box_shadow_color2;
   background-color: $background_primary_color;
 }
 .comment:last-of-type {
@@ -4089,7 +4082,7 @@ ul {
   text-align: center;
   position: relative;
   overflow: hidden;
-  background-color: $background_secondary_color;
+  background-color: $background_tertiary_color;
 }
 .topics h1 {
   text-align: left;
@@ -6648,7 +6641,6 @@ html[dir=rtl] .notification-left-aligned {
 
 .dropdown-menu {
   background: #fff;
-  box-shadow: 0px 4px 10px 0px $box_shadow_color1, 0px 10px 25px 0px $box_shadow_color2;
   display: none;
   font-size: 16px;
   font-style: normal;

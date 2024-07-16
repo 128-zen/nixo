@@ -633,17 +633,18 @@ ul {
   display: block;
   font-size: 18px;
   font-weight: 400;
+  border-radius: 6px;
   line-height: 120%; /* 21.6px */
   letter-spacing: 0.63px;
   padding: 14px 34px;
   cursor: pointer;
   background-color: $primary_button_color;
   border: 1px solid $primary_button_color;
-  color: $light_text_color;
+  color: $headings_secondary;
 }
 .form footer input:hover {
   background-color: $secondary_button_color;
-  border: 1px solid $secondary_button_color;
+  border: 1px solid $primary_button_color;
   color: $headings_primary;
 }
 
@@ -6608,6 +6609,7 @@ html[dir=rtl] .notification-left-aligned {
   cursor: pointer;
   background: none;
   border: 0;
+  border-radius: 6px;
   display: flex;
   align-items: center;
   gap: 10px;

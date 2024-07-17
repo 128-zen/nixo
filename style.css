@@ -1930,12 +1930,6 @@ ul {
   display: none;
 }
 
-.category-details__section > svg {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-}
-
 .category-details__item ul {
   margin-top: 30px;
 }

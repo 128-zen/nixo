@@ -716,9 +716,10 @@ ul {
 }
 
 .logo img {
-  max-height: 24px;
   vertical-align: middle;
-  width: auto;
+  width: 100%;
+  height: auto;
+  max-width: 160px;
 }
 .logo span {
   margin: 0 10px;
@@ -1437,6 +1438,34 @@ ul {
   font-size: 20px;
   margin-bottom: 60px;
   max-width: 645px;
+}
+
+.hero > img, .hero > svg {
+  position: absolute;
+  left: 0;
+  bottom: 172px;
+}
+
+.hero > img:last-of-type, .hero > svg:last-of-type {
+  position: absolute;
+  left: auto;
+  right: 0;
+}
+
+.hero > svg:first-of-type rect:nth-of-type(-n+16) {
+  fill: $background_elements_color1;
+}
+
+.hero > svg:first-of-type rect:nth-of-type(n+17) {
+  fill: $background_elements_color2;
+}
+
+.hero > svg:last-of-type g rect:nth-of-type(-n+16), .category-page .hero > svg:last-of-type rect:nth-of-type(-n+16) {
+  fill: $background_elements_color3;
+}
+
+.hero > svg:last-of-type g rect:nth-of-type(n+17), .category-page .hero > svg:last-of-type rect:nth-of-type(n+17) {
+  fill: $background_elements_color4;
 }
 
 @media (max-width: 1279px) {

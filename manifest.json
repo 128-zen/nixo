@@ -1,7 +1,7 @@
 {
   "name": "Nixo 128",
   "author": "128zen",
-  "version": "1.0.51",
+  "version": "1.0.52",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -97,14 +97,29 @@
           "type": "color",
           "description": "Choose the color for background element 1",
           "label": "Background Element Color 1",
-          "value": "#EAF3DF"
+          "value": "#8EF9B5"
         },
         {
           "identifier": "background_elements_color2",
           "type": "color",
           "description": "Choose the color for background element 2",
           "label": "Background Element Color 2",
-          "value": "#D5ECF8"
+          "value": "#FB9CED"
+        }
+        ,
+        {
+          "identifier": "background_elements_color3",
+          "type": "color",
+          "description": "Choose the color for background element 3",
+          "label": "Background Element Color 3",
+          "value": "#89DCFC"
+        },
+        {
+          "identifier": "background_elements_color4",
+          "type": "color",
+          "description": "Choose the color for background element 4",
+          "label": "Background Element Color 4",
+          "value": "#FEF977"
         }
       ]
     },

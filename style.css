@@ -1457,19 +1457,19 @@ ul {
 }
 
 .hero > svg:first-of-type rect:nth-of-type(-n+16) {
-  fill: $background_elements_color1;
+  fill: $banner_background_color1;
 }
 
 .hero > svg:first-of-type rect:nth-of-type(n+17) {
-  fill: $background_elements_color2;
+  fill: $banner_background_color2;
 }
 
 .hero > svg:last-of-type g rect:nth-of-type(-n+16), .category-page .hero > svg:last-of-type rect:nth-of-type(-n+16) {
-  fill: $background_elements_color3;
+  fill: $banner_background_color3;
 }
 
 .hero > svg:last-of-type g rect:nth-of-type(n+17), .category-page .hero > svg:last-of-type rect:nth-of-type(n+17) {
-  fill: $background_elements_color4;
+  fill: $banner_background_color4;
 }
 
 @media (max-width: 1279px) {

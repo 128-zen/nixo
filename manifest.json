@@ -1,7 +1,7 @@
 {
   "name": "Nixo 128",
   "author": "128zen",
-  "version": "1.0.54",
+  "version": "1.0.55",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -91,35 +91,6 @@
           "description": "Choose the color for borders",
           "label": "Border Color",
           "value": "#8D9AA6"
-        },
-        {
-          "identifier": "background_elements_color1",
-          "type": "color",
-          "description": "Choose the color for background element 1",
-          "label": "Background Element Color 1",
-          "value": "#8EF9B5"
-        },
-        {
-          "identifier": "background_elements_color2",
-          "type": "color",
-          "description": "Choose the color for background element 2",
-          "label": "Background Element Color 2",
-          "value": "#FB9CED"
-        }
-        ,
-        {
-          "identifier": "background_elements_color3",
-          "type": "color",
-          "description": "Choose the color for background element 3",
-          "label": "Background Element Color 3",
-          "value": "#89DCFC"
-        },
-        {
-          "identifier": "background_elements_color4",
-          "type": "color",
-          "description": "Choose the color for background element 4",
-          "label": "Background Element Color 4",
-          "value": "#FEF977"
         }
       ]
     },
@@ -450,28 +421,28 @@
           "type": "color",
           "description": "Choose the color 1 for background elements on the banner",
           "label": "Background Elements Color 1",
-          "value": "#FCE8DB"
+          "value": "#8EF9B5"
         },
         {
           "identifier": "banner_background_color2",
           "type": "color",
           "description": "Choose the color 2 for background elements on the banner",
           "label": "Background Elements Color 2",
-          "value": "#CEF5E8"
+          "value": "#FB9CED"
         },
         {
           "identifier": "banner_background_color3",
           "type": "color",
           "description": "Choose the color 3 for background elements on the banner",
           "label": "Background Elements Color 3",
-          "value": "#FBEED4"
+          "value": "#89DCFC"
         },
         {
           "identifier": "banner_background_color4",
           "type": "color",
           "description": "Choose the color 4 for background elements on the banner",
           "label": "Background Elements Color 4",
-          "value": "#E4EEFC"
+          "value": "#FEF977"
         }
       ]
     },
@@ -676,25 +647,6 @@
           "description": "Show section",
           "label": "Toggle Section",
           "value": true
-        }
-      ]
-    },
-    {
-      "label": "Homepage Promoted Articles Section",
-      "variables": [
-        {
-          "identifier": "show_promoted_articles_section",
-          "type": "checkbox",
-          "description": "Show section",
-          "label": "Toggle Section",
-          "value": true
-        },
-        {
-          "identifier": "promoted_articles_heading",
-          "type": "text",
-          "description": "Enter section heading",
-          "label": "Section Heading",
-          "value": "Promoted articles"
         }
       ]
     },

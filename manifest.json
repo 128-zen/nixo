@@ -1,7 +1,7 @@
 {
   "name": "Nixo 128",
   "author": "128zen",
-  "version": "1.0.55",
+  "version": "1.0.56",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -81,8 +81,8 @@
         {
           "identifier": "hover_link_color",
           "type": "color",
-          "description": "Choose the primary color for the hover state of the links",
-          "label": "Hover Link Primary Color",
+          "description": "Choose color for the hover state of the links",
+          "label": "Hover Link Color",
           "value": "#FB9CED"
         },
         {

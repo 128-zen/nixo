@@ -1,7 +1,7 @@
 {
   "name": "Nixo 128",
   "author": "128zen",
-  "version": "1.0.58",
+  "version": "1.0.59",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -639,13 +639,20 @@
       ]
     },
     {
-      "label": "Homepage Category Details Section",
+      "label": "Homepage Category Section Layout",
       "variables": [
         {
-          "identifier": "show_category_details_section",
+          "identifier": "show_category1_section",
           "type": "checkbox",
-          "description": "Show section",
-          "label": "Toggle Section",
+          "description": "Show category section layout 1",
+          "label": "Toggle Layout 1",
+          "value": true
+        },
+        {
+          "identifier": "show_category2_section",
+          "type": "checkbox",
+          "description": "Show category section layout 2",
+          "label": "Toggle Layout 2",
           "value": true
         }
       ]

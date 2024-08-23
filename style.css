@@ -1953,6 +1953,20 @@ ul {
   z-index: 1;
 }
 
+.categories-layout2 .container {
+  display: block;
+}
+
+.category-details__header {
+  max-width: 645px;
+  text-align: center;
+  margin: 0 auto 60px;
+}
+
+.category-details__header p {
+  margin-top: 20px;
+}
+
 .category-details__head {
   display: flex;
   align-items: center;
@@ -2030,6 +2044,9 @@ ul {
   .category-details__sections {
     margin-top: 40px;
     justify-content: center;
+  }
+  .category-details__header {
+    margin-bottom: 40px;
   }
   .category-details__list {
     justify-content: center;

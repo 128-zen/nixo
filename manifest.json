@@ -1,7 +1,7 @@
 {
   "name": "Nixo 128",
   "author": "128zen",
-  "version": "1.0.60",
+  "version": "1.0.61",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -51,17 +51,17 @@
           "value": "#F2F2F2"
         },
         {
-          "identifier": "headings_primary",
+          "identifier": "text_primary",
           "type": "color",
-          "description": "Choose heading primary color",
-          "label": "Heading Primary Color",
+          "description": "Choose text primary color",
+          "label": "Text Primary Color",
           "value": "#16182D"
         },
         {
-          "identifier": "headings_secondary",
+          "identifier": "text_secondary",
           "type": "color",
-          "description": "Choose heading secondary color",
-          "label": "Heading Secondary Color",
+          "description": "Choose text secondary color",
+          "label": "Text Secondary Color",
           "value": "#fff"
         },
         {
@@ -74,7 +74,7 @@
         {
           "identifier": "secondary_button_color",
           "type": "color",
-          "description": "Choose primary button background color",
+          "description": "Choose secondary button background color",
           "label": "Secondary Button Background Color",
           "value": "#fff"
         },

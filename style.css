@@ -221,7 +221,7 @@ template {
 
 body {
   background-color: $body_background_color;
-  color: $headings_primary;
+  color: $text_primary;
   font-family: $text_font;
   font-size: 16px;
   line-height: 1.4;
@@ -321,7 +321,7 @@ p {
   }
 }
 a {
-  color: $headings_primary;
+  color: $text_primary;
   text-decoration: none;
   cursor: pointer;
 }
@@ -419,7 +419,7 @@ ul {
   padding: 14px 34px;
   border-radius: 6px;
   background-color: $secondary_button_color;
-  color: $headings_primary;
+  color: $text_primary;
   border: 1px solid $primary_button_color;
   user-select: none;
   white-space: nowrap;
@@ -439,19 +439,19 @@ ul {
 .article-subscribe button:hover, .community-follow button:hover, .subscriptions-subscribe button:hover, .section-subscribe button:hover, .split-button button:hover {
   background-color: $primary_button_color;
   border: 1px solid $primary_button_color;
-  color: $headings_secondary;
+  color: $text_secondary;
 }
 
 .comment-form-controls input[type=submit] {
   background-color: $primary_button_color;
   border: 1px solid $primary_button_color;
-  color: $headings_secondary;
+  color: $text_secondary;
 }
 
 .comment-form-controls input[type=submit]:hover {
   background-color: $secondary_button_color;
   border: 1px solid $primary_button_color;
-  color: $headings_primary;
+  color: $text_primary;
 }
 
 .button-large[disabled], input[type=submit][disabled] {
@@ -556,7 +556,7 @@ ul {
   display: block;
   font-size: 16px;
   margin-bottom: 10px;
-  color: $headings_primary;
+  color: $text_primary;
 }
 
 .form-field input {
@@ -640,12 +640,12 @@ ul {
   cursor: pointer;
   background-color: $primary_button_color;
   border: 1px solid $primary_button_color;
-  color: $headings_secondary;
+  color: $text_secondary;
 }
 .form footer input:hover {
   background-color: $secondary_button_color;
   border: 1px solid $primary_button_color;
-  color: $headings_primary;
+  color: $text_primary;
 }
 
 .form footer a {
@@ -769,15 +769,15 @@ ul {
 
 .footer-language-selector button {
   font-size: 18px;
-  color: $headings_primary;
+  color: $text_primary;
 }
 
 .footer-language-selector button:hover {
   color: $hover_link_color;
 }
 .footer-language-selector button path {
-  fill: $headings_primary;
-  stroke: $headings_primary;
+  fill: $text_primary;
+  stroke: $text_primary;
 }
 
 .footer-language-selector button:hover path {
@@ -863,7 +863,7 @@ ul {
   border-radius: 50%;
 }
 .nav-wrapper-mobile .menu-button-mobile .icon-menu path {
-  stroke: $headings_primary;
+  stroke: $text_primary;
 }
 .nav-wrapper-mobile .menu-list-mobile {
   position: absolute;
@@ -996,7 +996,7 @@ ul {
 }
 .user-info > button {
   border: 0;
-  color: $headings_primary;
+  color: $text_primary;
   min-width: 0;
   padding: 0;
   white-space: nowrap;
@@ -1006,7 +1006,7 @@ ul {
   background-color: transparent;
 }
 .user-info > button path {
-  stroke: $headings_primary;
+  stroke: $text_primary;
 }
 .user-info > button:hover path, .user-info > button:focus path {
   stroke: $hover_link_color;
@@ -1116,7 +1116,7 @@ ul {
 
 .submit-request h2 {
   margin-bottom: 20px;
-  color: $headings_secondary;
+  color: $text_secondary;
 }
 
 .submit-request p {
@@ -1174,7 +1174,7 @@ ul {
   height: auto;
 }
 .footer__social path {
-  fill: $headings_secondary;
+  fill: $text_secondary;
 }
 
 .footer__social a:hover path {
@@ -1188,7 +1188,7 @@ ul {
 
 .footer__list a {
   font-weight: 700;
-  color: $headings_secondary;
+  color: $text_secondary;
 }
 
 .footer__list a:hover {
@@ -1210,6 +1210,11 @@ ul {
 
 .footer__right a {
   font-weight: 700;
+  color: $text_secondary;
+}
+
+.footer__right a:hover {
+  color: $hover_link_color;
 }
 
 .footer__right {
@@ -1251,6 +1256,7 @@ ul {
   }
   .footer__bottom p {
     text-align: center;
+    max-width: 80%;
   }
 }
 
@@ -1536,11 +1542,11 @@ ul {
   border: none;
   border: 1px solid $primary_button_color;
   background-color: $primary_button_color;
-  color: $headings_secondary;
+  color: $text_secondary;
 }
 .hero .search input[type=submit]:hover, .error-page .search input[type=submit]:hover {
   background-color: $secondary_button_color;
-  color: $headings_primary;
+  color: $text_primary;
   border: 1px solid $primary_button_color;
 }
 .hero .search-icon, .error-page .search-icon {
@@ -1566,12 +1572,12 @@ ul {
   padding: 4px 8px;
   border-radius: 6px;
   background-color: $background_tertiary_color;
-  color: $headings_primary;
+  color: $text_primary;
 }
 
 .popular-keywords a:hover {
   background-color: $hover_link_color;
-  color: $headings_primary;
+  color: $text_primary;
 }
 
 .page-header {
@@ -1640,7 +1646,7 @@ ul {
 }
 
 .page-header .dropdown-toggle path, .featured-posts-btn svg path {
-  stroke: $headings_primary;
+  stroke: $text_primary;
 }
 
 .page-header .dropdown-toggle:hover svg, .page-header .dropdown-toggle[aria-expanded='true'] svg .featured-posts-btn:hover > div svg {
@@ -1760,7 +1766,7 @@ ul {
 .blocks-item-title h5 {
   margin-bottom: 0;
   transition: all .3s ease;
-  color: $headings_primary;
+  color: $text_primary;
   cursor: pointer;
 }
 .blocks-item-title:hover h5 {
@@ -2212,7 +2218,7 @@ ul {
 }
 
 .videos__img path{
-  fill: $headings_primary;
+  fill: $text_primary;
 }
 
 .videos__img:hover{
@@ -2224,7 +2230,7 @@ ul {
 }
 
 .videos__img:hover path{
-  fill: $headings_secondary;
+  fill: $text_secondary;
 }
 
 .video-modal{
@@ -2356,7 +2362,7 @@ ul {
 }
 
 .faq__item svg path {
-  stroke: $headings_primary;
+  stroke: $text_primary;
 }
 
 .faq__item p {
@@ -2421,10 +2427,10 @@ ul {
   width: 100%;
 }
 .submit-request-page form, .new-post-page form {
-  color: $headings_primary;
+  color: $text_primary;
 }
 .searchbox-suggestions a {
-  color: $headings_primary;
+  color: $text_primary;
 }
 .searchbox-suggestions a:hover {
   color: $hover_link_color;
@@ -2479,11 +2485,11 @@ ul {
   font-size: 120px;
   font-weight: 600;
   margin-bottom: 25px;
-  color: $headings_primary;
+  color: $text_primary;
 }
 .error-page h3 {
   max-width: 480px;
-  color: $headings_primary;
+  color: $text_primary;
 }
 .error-page .container>a {
   font-size: 22px;
@@ -2492,7 +2498,7 @@ ul {
   color: $hover_link_color;
 }
 .error-page .container>a:hover {
-  color: $headings_primary;
+  color: $text_primary;
 }
 
 @media (max-width: 1023px) {
@@ -2526,7 +2532,7 @@ ul {
   padding: 30px;
   width: calc(33.3% - 20px);
   background-color: $background_primary_color;
-  color: $headings_primary;
+  color: $text_primary;
 }
 
 .homepage-activity .recent-activity-item:nth-child(n+4) {
@@ -2544,12 +2550,12 @@ ul {
   line-height: normal;
   padding: 5px 10px;
   background-color: $background_tertiary_color;
-  color: $headings_primary;
+  color: $text_primary;
 }
 
 .recent-activity-item-parent:hover {
   background-color: $secondary_button_color;
-  color: $headings_primary;
+  color: $text_primary;
 }
 
 .recent-activity-item-link {
@@ -2559,7 +2565,7 @@ ul {
   letter-spacing: normal;
   overflow: hidden;
   text-overflow: ellipsis;
-  color: $headings_primary;
+  color: $text_primary;
 }
 .recent-activity-item-link:hover {
   color: $hover_link_color;
@@ -2784,7 +2790,7 @@ ul {
 .category-page__article .short-name, .section-page__article .short-name {
   font-size: 18px;
   font-weight: 700;
-  color: $headings_primary;
+  color: $text_primary;
 }
 
 .category-page__article .author-img, .section-page__article .author-img {
@@ -2808,7 +2814,7 @@ ul {
 }
 
 .category-page__article > div:last-of-type svg path, .section-page__article > div:last-of-type svg path {
-  stroke: $headings_primary;
+  stroke: $text_primary;
 }
 
 .category-page__article > div:last-of-type:hover svg, .section-page__article > div:last-of-type:hover svg, .featured-posts-btn:hover svg {
@@ -2953,7 +2959,7 @@ ul {
 }
 
 .nav__heading h6, .nav__articles h6 a {
-  color: $headings_secondary;
+  color: $text_secondary;
 }
 
 .nav__articles h6 a:hover, .nav__articles li a:hover {
@@ -2969,8 +2975,8 @@ ul {
 }
 
 .nav__heading path {
-  fill: $headings_secondary;
-  stroke: $headings_secondary;
+  fill: $text_secondary;
+  stroke: $text_secondary;
 }
 
 .nav__sections {
@@ -3222,7 +3228,7 @@ ul {
     font-weight: 700;
     line-height: 1.2;
     letter-spacing: 0.18px;
-    color: $headings_primary;
+    color: $text_primary;
 }
 
 .article-meta a:hover, .post-meta a:hover {
@@ -3272,7 +3278,7 @@ ul {
 }
 
 .article-body a:hover, .post-body a:hover, .comment-body a:hover {
-  color: $headings_primary;
+  color: $text_primary;
 }
 .article-body li, .post-body li, .comment-body li {
   font-size: 16px;
@@ -3381,7 +3387,7 @@ ul {
   color: $body_primary;
 }
 .article-body blockquote h2, .article-body blockquote h3, .article-body blockquote h4, .post-body blockquote h2, .post-body blockquote h3, .post-body blockquote h4 {
-  color: $headings_primary;
+  color: $text_primary;
 }
 .article-body > p:last-child {
   margin-bottom: 0;
@@ -3488,7 +3494,7 @@ ul {
   background-color: $secondary_button_color;
 }
 .article-vote:hover path {
-  fill: $headings_primary;
+  fill: $text_primary;
 }
 .article-votes-count {
   margin-bottom: 10px;
@@ -3497,7 +3503,7 @@ ul {
   color: $hover_link_color;
 }
 .article-votes-request a:hover {
-  color: $headings_primary;
+  color: $text_primary;
 }
 .article-more-questions {
   margin: 10px 0 20px;
@@ -3549,7 +3555,7 @@ ul {
   padding: 8px 10px;
   background-color: $background_primary_color;
   border-radius: 8px;
-  color: $headings_primary;
+  color: $text_primary;
 }
 .sidenav-item {
   display: flex;
@@ -3650,7 +3656,7 @@ ul {
 .upload-dropzone span {
   font-size: 16px;
   font-weight: 400;
-  color: $headings_primary;
+  color: $text_primary;
 }
 .upload-dropzone span a {
   font-size: 16px;
@@ -3658,7 +3664,7 @@ ul {
   color: $hover_link_color;
 }
 .upload-dropzone:hover span a {
-  color: $headings_primary;
+  color: $text_primary;
 }
 
 /***** Social share links *****/
@@ -3678,7 +3684,7 @@ ul {
   width: 29px;
 }
 .share path {
-  fill: $headings_primary;
+  fill: $text_primary;
 }
 .share a:hover path {
   fill: $hover_link_color;
@@ -3730,7 +3736,7 @@ ul {
   text-decoration: underline;
 }
 .comment-callout a:hover, .comment-callout a:active, .comment-callout a:focus {
-  color: $headings_primary;
+  color: $text_primary;
 }
 .comment-sorter {
   display: inline-block;
@@ -3785,7 +3791,7 @@ ul {
   margin-right: 0;
 }
 .comment-meta a {
-  color: $headings_primary;
+  color: $text_primary;
 }
 .comment-meta a:hover {
   color: $hover_link_color;
@@ -3793,7 +3799,7 @@ ul {
 .comment-meta h6 {
   font-size: 18px;
   transition: all .3s ease;
-  color: $headings_primary;
+  color: $text_primary;
 }
 .comment-meta a:hover h6 {
   color: $hover_link_color;
@@ -3991,20 +3997,20 @@ ul {
   text-decoration: none;
 }
 .vote path {
-  stroke: $headings_primary;
+  stroke: $text_primary;
 }
 .vote button:hover path {
   stroke: $hover_link_color;
 }
 
 .comment-actions path, .actions button path {
-  stroke: $headings_primary;
+  stroke: $text_primary;
 }
 .comment-actions button:hover path, .actions button:hover path {
   stroke: $hover_link_color;
 }
 .comment-actions circle, .actions button circle {
-  stroke: $headings_primary;
+  stroke: $text_primary;
 }
 .comment-actions button:hover circle, .actions button:hover circle {
   stroke: $hover_link_color;
@@ -4035,7 +4041,7 @@ ul {
   appearance: none;
   background-color: transparent;
   border: none;
-  color: $headings_primary;
+  color: $text_primary;
   cursor: pointer;
   min-height: 35px;
   min-width: 35px;
@@ -4070,7 +4076,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: $headings_primary;
+  color: $text_primary;
 }
 
 /***** Community *****/
@@ -4171,7 +4177,7 @@ ul {
 }
 .topics h1 {
   text-align: left;
-  color: $headings_primary;
+  color: $text_primary;
 }
 .topics-item .meta-group {
   justify-content: center;
@@ -4194,7 +4200,7 @@ ul {
 }
 .activity .button {
   margin-top: 50px;
-  color: $headings_primary;
+  color: $text_primary;
   background-color: $secondary_button_color;
 }
 
@@ -4252,7 +4258,7 @@ ul {
 
 .topic-header .dropdown-toggle:hover, .topic-header .dropdown-toggle[aria-expanded='true'], .my-activities-following-header .dropdown-toggle:hover, .my-activities-following-header .dropdown-toggle[aria-expanded='true'], .profile-section-sorter .dropdown-toggle:hover, .profile-section-sorter .dropdown-toggle[aria-expanded='true'] {
   background-color: $primary_button_color;
-  color: $headings_secondary;
+  color: $text_secondary;
 }
 
 .topic-header .dropdown-toggle:hover svg, .topic-header .dropdown-toggle[aria-expanded='true'] svg, .my-activities-following-header .dropdown-toggle:hover svg, .my-activities-following-header .dropdown-toggle[aria-expanded='true'] svg, .profile-section-sorter .dropdown-toggle:hover svg, .profile-section-sorter .dropdown-toggle[aria-expanded='true'] svg {
@@ -4260,7 +4266,7 @@ ul {
 }
 
 .topic-header .dropdown-toggle:hover svg path, .topic-header .dropdown-toggle[aria-expanded='true'] svg path, .my-activities-following-header .dropdown-toggle:hover svg path, .my-activities-following-header .dropdown-toggle[aria-expanded='true'] svg path, .profile-section-sorter .dropdown-toggle:hover svg path, .profile-section-sorter .dropdown-toggle[aria-expanded='true'] svg path {
-  fill: $headings_secondary;
+  fill: $text_secondary;
 }
 
 
@@ -4334,7 +4340,7 @@ ul {
   color: $hover_link_color;
 }
 .striped-list-item .meta-group a:hover {
-  color: $headings_primary;
+  color: $text_primary;
 }
 .striped-list-count {
   display: flex;
@@ -4426,7 +4432,7 @@ ul {
 .status-label {
   background-color: $hover_link_color;
   border-radius: 8px;
-  color: $headings_primary;
+  color: $text_primary;
   font-size: 14px;
   font-weight: 400;
   margin-right: 2px;
@@ -4923,7 +4929,7 @@ ul {
   }
 }
 .collapsible-nav-list li a {
-  color: $headings_primary;
+  color: $text_primary;
   display: block;
 }
 .collapsible-nav-list li a:hover {
@@ -4953,7 +4959,7 @@ ul {
 @media (min-width: 768px) {
   .collapsible-nav-list li[aria-selected=true],
   .collapsible-nav-list li.current {
-    border-bottom: 2px solid $headings_primary;
+    border-bottom: 2px solid $text_primary;
     padding-bottom: 8px;
     order: 1;
   }
@@ -5013,7 +5019,7 @@ ul {
   stroke: $body_secondary;
 }
 .request-sidebar .collapsible-sidebar-toggle path {
-  stroke: $headings_primary;
+  stroke: $text_primary;
 }
 [dir=rtl] .collapsible-sidebar-toggle {
   left: 0;
@@ -5023,7 +5029,7 @@ ul {
   display: none;
 }
 .collapsible-sidebar-toggle-icon path {
-  stroke: $headings_primary;
+  stroke: $text_primary;
 }
 .collapsible-sidebar-toggle[aria-expanded=false] .chevron-icon {
   display: inline-block;
@@ -5062,7 +5068,7 @@ ul {
   display: block;
   max-width: 350px;
   white-space: normal;
-  color: $headings_primary;
+  color: $text_primary;
 }
 .my-activities-table .striped-list-title:hover {
   color: $hover_link_color;
@@ -5384,7 +5390,7 @@ ul {
 .request-main .comment-show-container {
   border-radius: 2px;
   border: 1px solid #ddd;
-  color: $headings_primary;
+  color: $text_primary;
   background-color: $background_primary_color;
   text-align: inherit;
   padding: 8px 25px;
@@ -5555,7 +5561,7 @@ ul {
   margin-right: 10px;
 }
 .pagination-next-link, .pagination-prev-link, .pagination-first-link, .pagination-last-link {
-  color: $headings_primary;
+  color: $text_primary;
 }
 .pagination-next-link:hover, .pagination-prev-link:hover, .pagination-first-link:hover, .pagination-last-link:hover {
   color: $hover_link_color;
@@ -5577,7 +5583,7 @@ ul {
 }
 .meta-data a {
   font-size: 16px;
-  color: $headings_primary;
+  color: $text_primary;
 }
 .meta-data a:hover {
   color: $hover_link_color;
@@ -5588,7 +5594,7 @@ ul {
 }
 
 .meta-data .comment-link:hover {
-  color: $headings_primary;
+  color: $text_primary;
 }
 
 .meta-group a p {
@@ -5598,7 +5604,7 @@ ul {
   color: $hover_link_color;
 }
 .meta-group a:hover p {
-  color: $headings_primary;
+  color: $text_primary;
 }
 /* User Profiles */
 .profile-header {
@@ -5987,7 +5993,7 @@ ul {
   margin-bottom: 5px;
 }
 .profile-activity-contribution a {
-  color: $headings_primary;
+  color: $text_primary;
 }
 .profile-activity-contribution a:hover {
   color: $hover_link_color;
@@ -6003,7 +6009,7 @@ ul {
   color: $hover_link_color;
 }
 .profile-contribution-title a:hover {
-  color: $headings_primary;
+  color: $text_primary;
 }
 
 .profile-contribution-body {
@@ -6406,10 +6412,10 @@ ul {
   color: $hover_link_color;
 }
 .search-results-page .container .no-results .action-prompt a:hover {
-  color: $headings_primary;
+  color: $text_primary;
 }
 .search-results-page .container .no-results .action-prompt a:hover path {
-  color: $headings_primary;
+  color: $text_primary;
 }
 
 .search-result-title-container {
@@ -6425,7 +6431,7 @@ ul {
   color: $hover_link_color;
 }
 .search-result-title a:hover {
-  color: $headings_primary;
+  color: $text_primary;
 }
 .search-result-votes, .search-result-meta-count {
   color: lighten($text_color, 20%);
@@ -6516,7 +6522,7 @@ ul {
 .search-result-description em {
   padding: 0 3px;
   background-color: $background_tertiary_color;
-  color: $headings_primary;
+  color: $text_primary;
 }
 .search-result-bottom {
   margin-top: 20px;
@@ -6528,7 +6534,7 @@ ul {
   color: $hover_link_color;
 }
 .search-result-bottom a:hover {
-  color: $headings_primary;
+  color: $text_primary;
 }
 .search-result-bottom span {
   font-size: 14px;
@@ -6700,10 +6706,10 @@ html[dir=rtl] .notification-left-aligned {
   text-align: initial;
   vertical-align: middle;
   font-size: 18px;
-  color: $headings_primary;
+  color: $text_primary;
 }
 .dropdown-toggle p {
-  color: $headings_primary;
+  color: $text_primary;
 }
 .dropdown-toggle span {
   font-size: 18px;
@@ -6878,37 +6884,37 @@ html[dir=rtl] .notification-left-aligned {
 .button-primary {
   background-color: $primary_button_color;
   border: 1px solid $primary_button_color;
-  color: $headings_secondary;
+  color: $text_secondary;
 }
 
 .button-primary:hover {
   background-color: $secondary_button_color;
   border: 1px solid $primary_button_color;
-  color: $headings_primary;
+  color: $text_primary;
 }
 
 .button-secondary {
   background-color: $secondary_button_color;
   border: 1px solid $primary_button_color;
-  color: $headings_primary;
+  color: $text_primary;
 }
 
 .button-secondary:hover {
   box-shadow: none;
   background-color: $primary_button_color;
   border: 1px solid $primary_button_color;
-  color: $headings_secondary;
+  color: $text_secondary;
 }
 
 .button-tertiary {
   background-color: $secondary_button_color;
   border: 1px solid $secondary_button_color;
-  color: $headings_primary;
+  color: $text_primary;
 }
 
 .button-tertiary:hover {
   background-color: $primary_button_color;
   border: 1px solid $secondary_button_color;
-  color: $headings_secondary;
+  color: $text_secondary;
 }
 

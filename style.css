@@ -1443,7 +1443,7 @@ ul {
 .hero__content p {
   font-size: 20px;
   margin-bottom: 60px;
-  max-width: 645px;
+  max-width: 630px;
 }
 
 .hero > img, .hero > svg {
@@ -1481,6 +1481,7 @@ ul {
 @media (max-width: 1279px) {
   .hero-text {
     font-size: 50px;
+    max-width: 650px;
   }
   .hero > img, .hero > svg {
     bottom: 180px;
@@ -2729,7 +2730,8 @@ ul {
 }
 
 .category-page .hero > img, .category-page .hero > svg {
-  bottom: 100px;
+  bottom: 0;
+  width: 14%;
 }
 
 .category-page .hero h1 {
@@ -2742,7 +2744,7 @@ ul {
   text-align: center;
   font-size: 20px;
   margin-top: 40px;
-  max-width: 645px;
+  max-width: 600px;
 }
 
 .category-page__content {
@@ -2885,13 +2887,17 @@ ul {
     padding-top: 100px;
   }
   .category-page .hero > img, .category-page .hero > svg {
-    bottom: 80px;
+    bottom: 0;
+    top: auto;
+  }
+  .category-page .hero h1 {
+    max-width: 650px;
   }
 }
 
 @media(max-width: 1023px) {
-  .category-page .hero > img, .category-page .hero > svg {
-    bottom: 60px;
+  .category-page .hero .container {
+    padding-top: 130px;
   }
   .category-page__content {
     padding-top: 80px;
@@ -2911,8 +2917,11 @@ ul {
 }
 
 @media(max-width: 767px) {
+  .category-page .hero .container {
+    padding-top: 110px;
+  }
   .category-page .hero > img, .category-page .hero > svg {
-    bottom: 40px;
+    display: none;
   }
   .category-page__content {
     padding-top: 60px;

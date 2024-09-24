@@ -1,7 +1,7 @@
 {
   "name": "Nixo 128",
   "author": "128zen",
-  "version": "1.0.61",
+  "version": "1.0.62",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -623,18 +623,6 @@
           "description": "Enter section subtitle",
           "label": "Item 8 Subtitle",
           "value": "Discover everything you need to know to start your journey with our service"
-        }
-      ]
-    },
-    {
-      "label": "Homepage Categories Section",
-      "variables": [
-        {
-          "identifier": "show_categories_section",
-          "type": "checkbox",
-          "description": "Show section",
-          "label": "Toggle Section",
-          "value": true
         }
       ]
     },

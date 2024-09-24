@@ -17,6 +17,7 @@
       {{#if settings.show_popular_keywords}}
         <div class="popular-keywords fade-in-up" data-keywords="{{settings.popular_keywords}}">
           <p>{{settings.popular_keywords_description}}</p>
+          <div class="popular-keywords__items"></div>
         </div>
       {{/if}}
     </div>
@@ -178,24 +179,6 @@
 </section>
 {{/if}}
 
-{{#if settings.show_categories_section}}
-{{!-- Categories Section --}}
-<section class="categories section">
-  <div class="container">
-    <div class="categories__items">
-      {{#each categories}}
-        <div class="categories__item fade-in-up">
-          <h4><a href="{{url}}">{{name}}</a></h4>
-          {{#if description}}
-            <p>{{description}}</p>
-          {{/if}}
-        </div>
-      {{/each}}
-    </div>
-  </div>
-</section>
-{{/if}}
-
 {{#if settings.show_category1_section}}
 {{!-- Categories Section --}}
 <section class="category-details section">
@@ -282,7 +265,9 @@
   <div class="container">
     <div class="videos__head">
       <h2 class="fade-in-up">{{settings.videos_heading}}</h2>
-      <a class="button button-secondary" href="{{settings.videos_button_link}}" target="_blank">{{settings.videos_button}}</a>
+      <div class="fade-in-up">
+        <a class="button button-secondary" href="{{settings.videos_button_link}}" target="_blank">{{settings.videos_button}}</a>
+      </div>
     </div>
     <div class="videos__list">
       <div class="videos__item fade-in-up">
@@ -340,7 +325,7 @@
         <p class="fade-in-up">{{settings.faq_subtitle}}</p>
       </div>
       <div class="faq__items">
-        <div class="faq__item fade-in-up">
+        <div class="faq__item open fade-in-up">
           <div>
             <h6>{{settings.faq_item1_heading}}</h6>
             <div>

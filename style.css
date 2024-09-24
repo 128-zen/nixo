@@ -2914,9 +2914,6 @@ ul {
   .category-page .hero > img, .category-page .hero > svg {
     bottom: 40px;
   }
-  .category-page .hero p {
-    margin-bottom: 40px;
-  }
   .category-page__content {
     padding-top: 60px;
     text-align: center;
@@ -2998,7 +2995,7 @@ ul {
   left: auto;
   top: auto;
   right: -16px;
-  bottom: -32px;
+  bottom: -45px;
 }
 
 .nav__category {
@@ -4418,8 +4415,12 @@ ul {
 .striped-list-count-item:last-child::after {
   display: none;
 }
+.striped-list-count-item svg {
+  width: 16px;
+  height: 16px;
+}
 .striped-list-count-item svg path {
-  fill: $secondary_button_color;
+  stroke: $body_primary;
 }
 .striped-list-number {
   text-align: center;
@@ -4774,7 +4775,7 @@ ul {
 .post-sidebar {
   border-top: 1px solid #ddd;
   flex: 1;
-  padding-top: 30px;
+  padding-top: 40px;
   text-align: center;
 }
 @media (min-width: 1024px) {
@@ -4841,6 +4842,9 @@ ul {
   }
   .post-header {
     align-items: start;
+  }
+  .post-sidebar {
+    padding-top: 30px;
   }
 }
 

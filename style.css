@@ -2744,7 +2744,7 @@ ul {
   text-align: center;
   font-size: 20px;
   margin-top: 40px;
-  max-width: 600px;
+  max-width: 630px;
 }
 
 .category-page__content {
@@ -2892,6 +2892,9 @@ ul {
   }
   .category-page .hero h1 {
     max-width: 650px;
+  }
+  .category-page .hero p {
+    max-width: 600px;
   }
 }
 

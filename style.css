@@ -1492,6 +1492,9 @@ ul {
   }
 }
 @media (max-width: 1023px) {
+  .hero .container {
+    padding-top: 120px;
+  }
   .hero__content {
     width: 68%;
   }
@@ -2887,7 +2890,7 @@ ul {
     padding-top: 100px;
   }
   .category-page .hero > img, .category-page .hero > svg {
-    bottom: 0;
+    bottom: 140px;
     top: auto;
   }
   .category-page .hero h1 {
@@ -2904,6 +2907,9 @@ ul {
   }
   .category-page__content {
     padding-top: 80px;
+  }
+  .category-page .hero p {
+    max-width: 530px;
   }
   .category-page__sections {
     gap: 60px;

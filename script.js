@@ -281,6 +281,14 @@
     }
   });
   
+  document.addEventListener('DOMContentLoaded', function() {
+    if (document.querySelector('.hero') && document.querySelector('.submit-request') && !document.querySelector('.faq')) {
+      const submitRequest = document.querySelector('.submit-request');
+      if (submitRequest) {
+          submitRequest.style.width = '100%';
+      }
+    }
+  });
 
   //DEFAULT THEME CODE
 

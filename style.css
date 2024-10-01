@@ -1881,9 +1881,6 @@ ul {
 }
 
 .introduction__item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   text-align: center;
 }
 
@@ -1897,7 +1894,11 @@ ul {
 
 .introduction__item h6 {
   position: relative;
-  margin-bottom: 14px;
+  display: inline;
+}
+
+.introduction__item p {
+  margin-top: 14px;
 }
 
 @media (max-width: 1023px) {
